@@ -9,8 +9,10 @@
     "serve": "vite preview --config vite.config.js --host 0.0.0.0"
   },
   "dependencies": {
+    "lucide-react": "catalog:",
     "react": "catalog:",
-    "react-dom": "catalog:"
+    "react-dom": "catalog:",
+    "react-router-dom": "^7.18.3"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "catalog:",
