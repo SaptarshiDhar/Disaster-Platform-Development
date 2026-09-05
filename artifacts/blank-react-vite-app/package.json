@@ -9,10 +9,13 @@
     "serve": "vite preview --config vite.config.js --host 0.0.0.0"
   },
   "dependencies": {
+    "leaflet": "^1.9.4",
     "lucide-react": "catalog:",
     "react": "catalog:",
     "react-dom": "catalog:",
-    "react-router-dom": "^7.18.3"
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^7.18.3",
+    "recharts": "^2.15.4"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "catalog:",
