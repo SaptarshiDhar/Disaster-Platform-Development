@@ -1,0 +1,145 @@
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import {
+  ArrowLeft,
+  Eye,
+  EyeOff,
+  LockKeyhole,
+  ShieldCheck,
+  UserRound,
+} from "lucide-react";
+
+function CommanderLogin() {
+  const navigate = useNavigate();
+
+  const [commanderId, setCommanderId] = useState("");
+  const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
+  const [error, setError] = useState("");
+
+  const handleLogin = (event) => {
+    event.preventDefault();
+
+    // FRONTEND DEMO AUTHENTICATION ONLY.
+    // This will later be replaced by the backend login API.
+
+    if (!commanderId.trim() || !password.trim()) {
+      setError("Please enter both Commander ID and password.");
+      return;
+    }
+
+    localStorage.setItem("sih_commander_logged_in", "true");
+
+    localStorage.setItem(
+      "sih_user",
+      JSON.stringify({
+        role: "commander",
+        displayName: "NDRF Commander",
+      })
+    );
+
+    navigate("/commander");
+  };
+
+  return (
+    <div className="login-page">
+      <button
+        className="back-button"
+        onClick={() => navigate("/")}
+      >
+        <ArrowLeft size={18} />
+        Back
+      </button>
+
+      <div className="login-panel">
+        <div className="login-brand">
+          <div className="login-shield">
+            <ShieldCheck size={42} />
+          </div>
+
+          <span>SIH26191</span>
+        </div>
+
+        <div className="secure-label">
+          AUTHORIZED PERSONNEL ACCESS
+        </div>
+
+        <h1>NDRF / SDMA Commander</h1>
+
+        <p className="login-subtitle">
+          Sign in to access the Disaster Intelligence Command Center.
+        </p>
+
+        <form onSubmit={handleLogin}>
+          <label>
+            Commander ID / Official Email
+          </label>
+
+          <div className="input-wrapper">
+            <UserRound size={19} />
+
+            <input
+              type="text"
+              placeholder="Enter Commander ID"
+              value={commanderId}
+              onChange={(event) =>
+                setCommanderId(event.target.value)
+              }
+            />
+          </div>
+
+          <label>Password</label>
+
+          <div className="input-wrapper">
+            <LockKeyhole size={19} />
+
+            <input
+              type={showPassword ? "text" : "password"}
+              placeholder="Enter password"
+              value={password}
+              onChange={(event) =>
+                setPassword(event.target.value)
+              }
+            />
+
+            <button
+              type="button"
+              className="password-toggle"
+              onClick={() =>
+                setShowPassword(!showPassword)
+              }
+            >
+              {showPassword ? (
+                <EyeOff size={18} />
+              ) : (
+                <Eye size={18} />
+              )}
+            </button>
+          </div>
+
+          {error && (
+            <div className="login-error">
+              {error}
+            </div>
+          )}
+
+          <button
+            type="submit"
+            className="primary-login-button"
+          >
+            Access Command Center
+            <span>→</span>
+          </button>
+        </form>
+
+        <div className="demo-auth-note">
+          Prototype mode: authentication is currently simulated in the
+          frontend. Backend authentication will replace this during
+          integration.
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default CommanderLogin;
