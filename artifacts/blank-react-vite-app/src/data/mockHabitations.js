@@ -1,0 +1,206 @@
+export const mockHabitations = [
+  {
+    id: "HAB-001",
+    name: "Prototype Habitation A",
+    state: "Assam",
+    district: "Dima Hasao",
+
+    coordinates: [25.45, 93.02],
+
+    population: 2318,
+    households: 471,
+    area: 1.42,
+
+    exposure: "High",
+
+    hazards: {
+      landslide: {
+        level: "Very High",
+        score: 88,
+      },
+
+      flood: {
+        level: "Low",
+        score: 26,
+      },
+
+      multiHazard: {
+        level: "High",
+        score: 73,
+      },
+    },
+
+    relocationPriority: "Immediate",
+
+    keyFactors: [
+      "Prototype high landslide susceptibility",
+      "Population exposure within demonstration zone",
+      "Past-disaster-history factor awaiting GIS integration",
+      "Accessibility assessment required",
+    ],
+  },
+
+  {
+    id: "HAB-002",
+    name: "Prototype Habitation B",
+    state: "Uttarakhand",
+    district: "Chamoli",
+
+    coordinates: [30.42, 79.39],
+
+    population: 1640,
+    households: 332,
+    area: 1.05,
+
+    exposure: "High",
+
+    hazards: {
+      landslide: {
+        level: "Very High",
+        score: 91,
+      },
+
+      flood: {
+        level: "Moderate",
+        score: 48,
+      },
+
+      multiHazard: {
+        level: "Very High",
+        score: 84,
+      },
+    },
+
+    relocationPriority: "Immediate",
+
+    keyFactors: [
+      "Prototype landslide-risk demonstration",
+      "Mountainous terrain context",
+      "Population concentration",
+      "Road-access assessment required",
+    ],
+  },
+
+  {
+    id: "HAB-003",
+    name: "Prototype Habitation C",
+    state: "Bihar",
+    district: "Darbhanga",
+
+    coordinates: [26.15, 85.9],
+
+    population: 4870,
+    households: 910,
+    area: 2.7,
+
+    exposure: "Very High",
+
+    hazards: {
+      landslide: {
+        level: "Low",
+        score: 17,
+      },
+
+      flood: {
+        level: "Very High",
+        score: 92,
+      },
+
+      multiHazard: {
+        level: "High",
+        score: 76,
+      },
+    },
+
+    relocationPriority: "Immediate",
+
+    keyFactors: [
+      "Prototype flood-risk demonstration",
+      "High population exposure",
+      "Low landslide-risk context",
+      "Evacuation accessibility requires assessment",
+    ],
+  },
+
+  {
+    id: "HAB-004",
+    name: "Prototype Habitation D",
+    state: "Kerala",
+    district: "Wayanad",
+
+    coordinates: [11.69, 76.13],
+
+    population: 2860,
+    households: 594,
+    area: 1.83,
+
+    exposure: "High",
+
+    hazards: {
+      landslide: {
+        level: "High",
+        score: 79,
+      },
+
+      flood: {
+        level: "Moderate",
+        score: 54,
+      },
+
+      multiHazard: {
+        level: "High",
+        score: 72,
+      },
+    },
+
+    relocationPriority: "Short Term",
+
+    keyFactors: [
+      "Prototype multi-hazard demonstration",
+      "Population exposure",
+      "Terrain susceptibility assessment",
+      "Infrastructure suitability pending",
+    ],
+  },
+
+  {
+    id: "HAB-005",
+    name: "Prototype Habitation E",
+    state: "Odisha",
+    district: "Kendrapara",
+
+    coordinates: [20.5, 86.42],
+
+    population: 3520,
+    households: 702,
+    area: 2.16,
+
+    exposure: "High",
+
+    hazards: {
+      landslide: {
+        level: "Low",
+        score: 14,
+      },
+
+      flood: {
+        level: "High",
+        score: 81,
+      },
+
+      multiHazard: {
+        level: "High",
+        score: 75,
+      },
+    },
+
+    relocationPriority: "Short Term",
+
+    keyFactors: [
+      "Prototype flood-exposure demonstration",
+      "High population concentration",
+      "Infrastructure exposure requires analysis",
+      "Candidate-site suitability pending",
+    ],
+  },
+];
