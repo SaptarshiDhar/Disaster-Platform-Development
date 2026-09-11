@@ -11,6 +11,7 @@ import {
 } from "react-leaflet";
 
 import { RISK_COLORS, hazardPolygons } from "../../data/mockHazards";
+import { SITE_TIER_COLOUR } from "../../data/mockCandidateSites";
 import { baseMaps } from "../../config/mapLayers";
 
 /**
@@ -27,6 +28,14 @@ import { baseMaps } from "../../config/mapLayers";
 const POPULATION_COLOUR = "#a855f7";
 const CANDIDATE_COLOUR = "#22c55e";
 const INCIDENT_COLOUR = "#fb923c";
+
+/** Marker colour per feed-item kind on the Incident Reports operation map. */
+const FEED_KIND_COLOUR = {
+  field: "#63dda2",
+  civilian: "#38bdf8",
+  critical: "#ef4444",
+  resource: "#f97316",
+};
 
 function MapController({ region }) {
   const map = useMap();
@@ -48,10 +57,15 @@ function RakshaMap({
   layers = {},
   densityPoints = [],
   candidateSites = [],
+  selectedSiteId,
+  onSelectSite,
   incidents = [],
   infrastructure = [],
   routes = [],
   originHabitation,
+  feedMarkers = [],
+  selectedFeedId,
+  onSelectFeedItem,
   className = "disaster-map",
 }) {
   const polygons =
@@ -213,29 +227,69 @@ function RakshaMap({
           </Polyline>
         ))}
 
-        {/* Candidate relocation sites */}
+        {/* Candidate relocation sites — coloured by suitability tier */}
         {layers.candidateSites &&
-          candidateSites.map((site) => (
+          candidateSites.map((site) => {
+            const selected = selectedSiteId === site.id;
+            const fill = SITE_TIER_COLOUR[site.tier] ?? CANDIDATE_COLOUR;
+
+            return (
+              <CircleMarker
+                key={site.id}
+                center={site.coordinates}
+                radius={selected ? 11 : 8}
+                pathOptions={{
+                  color: selected ? "#ffffff" : "#0b1a26",
+                  fillColor: fill,
+                  fillOpacity: 0.92,
+                  weight: selected ? 3 : 1.5,
+                }}
+                eventHandlers={
+                  onSelectSite ? { click: () => onSelectSite(site) } : undefined
+                }
+              >
+                <Tooltip>
+                  <strong>{site.name}</strong>
+                  <br />
+                  {site.district}, {site.state}
+                  <br />
+                  Prototype capacity: {site.capacity.toLocaleString("en-IN")}
+                  <br />
+                  Suitability: {site.suitability}/100 (demo)
+                </Tooltip>
+              </CircleMarker>
+            );
+          })}
+
+        {/* Generic feed markers — Incident Reports operation map */}
+        {feedMarkers.map((item) => {
+          const selected = selectedFeedId === item.feedId;
+
+          return (
             <CircleMarker
-              key={site.id}
-              center={site.coordinates}
-              radius={8}
+              key={item.feedId}
+              center={item.coordinates}
+              radius={selected ? 10 : 7}
               pathOptions={{
-                color: "#ffffff",
-                fillColor: CANDIDATE_COLOUR,
-                fillOpacity: 0.9,
-                weight: 1.5,
+                color: selected ? "#ffffff" : "#0b1a26",
+                fillColor: FEED_KIND_COLOUR[item.kind] ?? "#94a3b8",
+                fillOpacity: 0.92,
+                weight: selected ? 3 : 1.5,
               }}
+              eventHandlers={
+                onSelectFeedItem
+                  ? { click: () => onSelectFeedItem(item) }
+                  : undefined
+              }
             >
               <Tooltip>
-                <strong>{site.name}</strong>
+                <strong>{item.title}</strong>
                 <br />
-                Prototype capacity: {site.capacity.toLocaleString("en-IN")}
-                <br />
-                Suitability: {site.suitability}/100 (demo)
+                {item.subtitle}
               </Tooltip>
             </CircleMarker>
-          ))}
+          );
+        })}
 
         {/* Incident reports */}
         {layers.incidents &&

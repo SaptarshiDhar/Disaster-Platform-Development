@@ -15,6 +15,8 @@ const CommandCenterPage = lazy(() => import("./pages/CommandCenterPage"));
 const ExposurePage = lazy(() => import("./pages/ExposurePage"));
 const HabitationsPage = lazy(() => import("./pages/HabitationsPage"));
 const RelocationPage = lazy(() => import("./pages/RelocationPage"));
+const CandidateSitesPage = lazy(() => import("./pages/CandidateSitesPage"));
+const IncidentsPage = lazy(() => import("./pages/IncidentsPage"));
 
 /**
  * Frontend route guard.
@@ -66,36 +68,8 @@ function App() {
           <Route path="habitations" element={<HabitationsPage />} />
           <Route path="relocation" element={<RelocationPage />} />
 
-          <Route
-            path="sites"
-            element={
-              <ModulePlaceholderPage
-                title="Candidate Sites"
-                description="Catalogue and screening of potential relocation sites."
-                planned={[
-                  "Site catalogue with terrain, access and hazard-distance attributes",
-                  "Screening filters by capacity, distance and hazard safety",
-                  "Side-by-side comparison across multiple habitations",
-                ]}
-                dependsOn="PostGIS site geometry and terrain data ingestion."
-              />
-            }
-          />
-          <Route
-            path="incidents"
-            element={
-              <ModulePlaceholderPage
-                title="Incident Reports"
-                description="Citizen and field incident reporting queue."
-                planned={[
-                  "Incident intake from citizen and field channels",
-                  "Triage, verification and assignment workflow",
-                  "Linking incidents to affected habitations",
-                ]}
-                dependsOn="Backend reporting API and authenticated field accounts."
-              />
-            }
-          />
+          <Route path="sites" element={<CandidateSitesPage />} />
+          <Route path="incidents" element={<IncidentsPage />} />
           <Route
             path="alerts"
             element={

@@ -35,6 +35,56 @@ const STATUS_CLASS = {
   Alternative: "status-gis",
   "Not Suitable": "status-field",
   "Pending Assessment": "status-pending",
+
+  // Candidate site verification
+  "Field Visit Required": "status-field",
+  "Partially Verified": "status-gis",
+  Pending: "status-pending",
+  "Not Visited": "status-none",
+
+  // Civilian report verification
+  Unverified: "status-none",
+  Corroborated: "status-gis",
+  "Field Verification Requested": "status-field",
+  "Field Verified": "status-verified",
+  Duplicate: "status-pending",
+  Dismissed: "status-none",
+
+  // Resource request status
+  Requested: "status-pending",
+  Approved: "status-gis",
+  Assigned: "status-gis",
+  "En Route": "status-field",
+  Delivered: "status-verified",
+  Closed: "status-none",
+  Unavailable: "status-field",
+
+  // Incident status
+  Active: "status-field",
+  Contained: "status-gis",
+
+  // Site suitability tiers
+  "High Suitability": "status-verified",
+  Suitable: "status-verified",
+  "Needs Assessment": "status-pending",
+  "Limited Suitability": "status-field",
+  "Rejected / Unsuitable": "status-none",
+};
+
+const SEVERITY_CLASS = {
+  Critical: "risk-very-high",
+  "Very High": "risk-very-high",
+  High: "risk-high",
+  Moderate: "risk-moderate",
+  Low: "risk-low",
+};
+
+const TIER_CLASS = {
+  high: "tier-high",
+  suitable: "tier-suitable",
+  "needs-assessment": "tier-needs-assessment",
+  limited: "tier-limited",
+  rejected: "tier-rejected",
 };
 
 export function RiskBadge({ level }) {
@@ -57,6 +107,24 @@ export function StatusBadge({ status }) {
   return (
     <span className={`rk-badge ${STATUS_CLASS[status] ?? "status-none"}`}>
       {status}
+    </span>
+  );
+}
+
+/** Incident/report severity — Critical maps onto the same visual weight as Very High. */
+export function SeverityBadge({ level }) {
+  return (
+    <span className={`rk-badge ${SEVERITY_CLASS[level] ?? "risk-low"}`}>
+      {level}
+    </span>
+  );
+}
+
+/** Candidate site suitability tier (high / suitable / needs-assessment / limited / rejected). */
+export function TierBadge({ tier, label }) {
+  return (
+    <span className={`rk-badge ${TIER_CLASS[tier] ?? "tier-needs-assessment"}`}>
+      {label}
     </span>
   );
 }
