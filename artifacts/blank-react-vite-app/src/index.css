@@ -179,14 +179,26 @@ a {
 
   overflow: hidden;
 
+  /* Terrain-suggestive gradient rather than a photograph: the prototype must
+     not imply a real location or a real disaster event. */
   background:
     linear-gradient(
       90deg,
-      rgba(2, 18, 31, 0.98) 0%,
-      rgba(3, 23, 36, 0.92) 43%,
-      rgba(3, 16, 28, 0.88) 100%
+      rgba(2, 18, 31, 0.97) 0%,
+      rgba(3, 23, 36, 0.9) 43%,
+      rgba(3, 16, 28, 0.86) 100%
     ),
-    url("/disaster-bg.jpg");
+    radial-gradient(
+      900px 420px at 78% 14%,
+      rgba(40, 96, 130, 0.42),
+      transparent 68%
+    ),
+    radial-gradient(
+      760px 380px at 22% 88%,
+      rgba(23, 74, 88, 0.34),
+      transparent 66%
+    ),
+    linear-gradient(160deg, #04161f 0%, #061c28 46%, #030f18 100%);
 
   background-size: cover;
   background-position: center;

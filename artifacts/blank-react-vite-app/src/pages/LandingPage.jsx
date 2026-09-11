@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import {
   BarChart3,
@@ -18,8 +19,12 @@ import {
 function LandingPage() {
   const navigate = useNavigate();
 
+  // Inline notice rather than window.alert: the Citizen and Administrator
+  // portals are deliberately out of scope for this phase.
+  const [notice, setNotice] = useState("");
+
   const showComingSoon = (role) => {
-    alert(`${role} portal will be added in the next development phase.`);
+    setNotice(`${role} portal — module planned for a later phase.`);
   };
 
   return (
@@ -246,6 +251,20 @@ function LandingPage() {
               </button>
             </article>
           </div>
+
+          {notice ? (
+            <div className="role-notice" role="status">
+              <Info size={16} />
+              {notice}
+              <button
+                type="button"
+                onClick={() => setNotice("")}
+                aria-label="Dismiss notice"
+              >
+                &times;
+              </button>
+            </div>
+          ) : null}
 
           <div className="account-notice">
             <Info size={17} />

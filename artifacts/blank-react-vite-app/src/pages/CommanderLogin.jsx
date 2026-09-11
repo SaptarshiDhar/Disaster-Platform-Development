@@ -1,143 +1,132 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import {
-  ArrowLeft,
-  Eye,
-  EyeOff,
-  LockKeyhole,
-  ShieldCheck,
-  UserRound,
-} from "lucide-react";
+import { useLocation, useNavigate } from "react-router-dom";
+import { ArrowLeft, Eye, EyeOff, Lock, ShieldCheck, User } from "lucide-react";
 
+import { login } from "../services/authService";
+
+/**
+ * Commander sign-in.
+ *
+ * Prototype authentication only — see src/services/authService.js. The form
+ * talks to that service rather than to localStorage directly, so replacing it
+ * with Supabase Auth or the project backend touches one module.
+ */
 function CommanderLogin() {
   const navigate = useNavigate();
+  const location = useLocation();
 
   const [commanderId, setCommanderId] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState("");
+  const [submitting, setSubmitting] = useState(false);
 
-  const handleLogin = (event) => {
+  const redirectTo = location.state?.from?.pathname ?? "/commander";
+
+  const handleSubmit = async (event) => {
     event.preventDefault();
+    setSubmitting(true);
+    setError("");
 
-    // FRONTEND DEMO AUTHENTICATION ONLY.
-    // This will later be replaced by the backend login API.
+    const result = await login({ commanderId, password });
 
-    if (!commanderId.trim() || !password.trim()) {
-      setError("Please enter both Commander ID and password.");
+    setSubmitting(false);
+
+    if (!result.ok) {
+      setError(result.error);
       return;
     }
 
-    localStorage.setItem("sih_commander_logged_in", "true");
-
-    localStorage.setItem(
-      "sih_user",
-      JSON.stringify({
-        role: "commander",
-        displayName: "NDRF Commander",
-      })
-    );
-
-    navigate("/commander");
+    navigate(redirectTo, { replace: true });
   };
 
   return (
     <div className="login-page">
       <button
-        className="back-button"
+        type="button"
+        className="login-back"
         onClick={() => navigate("/")}
       >
-        <ArrowLeft size={18} />
+        <ArrowLeft size={17} aria-hidden="true" />
         Back
       </button>
 
-      <div className="login-panel">
-        <div className="login-brand">
-          <div className="login-shield">
-            <ShieldCheck size={42} />
-          </div>
-
-          <span>SIH26191</span>
+      <main className="login-card">
+        <div className="login-emblem" aria-hidden="true">
+          <ShieldCheck size={34} />
         </div>
 
-        <div className="secure-label">
-          AUTHORIZED PERSONNEL ACCESS
-        </div>
+        <span className="login-sih">SIH26191</span>
+        <p className="login-kicker">AUTHORIZED PERSONNEL ACCESS</p>
 
         <h1>NDRF / SDMA Commander</h1>
-
         <p className="login-subtitle">
           Sign in to access the Disaster Intelligence Command Center.
         </p>
 
-        <form onSubmit={handleLogin}>
-          <label>
-            Commander ID / Official Email
-          </label>
-
-          <div className="input-wrapper">
-            <UserRound size={19} />
-
-            <input
-              type="text"
-              placeholder="Enter Commander ID"
-              value={commanderId}
-              onChange={(event) =>
-                setCommanderId(event.target.value)
-              }
-            />
-          </div>
-
-          <label>Password</label>
-
-          <div className="input-wrapper">
-            <LockKeyhole size={19} />
-
-            <input
-              type={showPassword ? "text" : "password"}
-              placeholder="Enter password"
-              value={password}
-              onChange={(event) =>
-                setPassword(event.target.value)
-              }
-            />
-
-            <button
-              type="button"
-              className="password-toggle"
-              onClick={() =>
-                setShowPassword(!showPassword)
-              }
-            >
-              {showPassword ? (
-                <EyeOff size={18} />
-              ) : (
-                <Eye size={18} />
-              )}
-            </button>
-          </div>
-
-          {error && (
-            <div className="login-error">
-              {error}
+        <form onSubmit={handleSubmit} noValidate>
+          <div className="login-field">
+            <label htmlFor="commander-id">Commander ID / Official Email</label>
+            <div className="login-input">
+              <User size={17} aria-hidden="true" />
+              <input
+                id="commander-id"
+                type="text"
+                autoComplete="username"
+                value={commanderId}
+                onChange={(event) => setCommanderId(event.target.value)}
+                placeholder="Enter Commander ID"
+                aria-invalid={Boolean(error)}
+              />
             </div>
-          )}
+          </div>
 
-          <button
-            type="submit"
-            className="primary-login-button"
-          >
-            Access Command Center
-            <span>→</span>
+          <div className="login-field">
+            <label htmlFor="commander-password">Password</label>
+            <div className="login-input">
+              <Lock size={17} aria-hidden="true" />
+              <input
+                id="commander-password"
+                type={showPassword ? "text" : "password"}
+                autoComplete="current-password"
+                value={password}
+                onChange={(event) => setPassword(event.target.value)}
+                placeholder="Enter password"
+                aria-invalid={Boolean(error)}
+              />
+              <button
+                type="button"
+                className="password-toggle"
+                onClick={() => setShowPassword((shown) => !shown)}
+                aria-label={showPassword ? "Hide password" : "Show password"}
+              >
+                {showPassword ? (
+                  <EyeOff size={17} aria-hidden="true" />
+                ) : (
+                  <Eye size={17} aria-hidden="true" />
+                )}
+              </button>
+            </div>
+          </div>
+
+          {error ? (
+            <p className="login-error" role="alert">
+              {error}
+            </p>
+          ) : null}
+
+          <button type="submit" className="login-submit" disabled={submitting}>
+            {submitting ? "Signing in…" : "Access Command Center"}
+            <span aria-hidden="true">→</span>
           </button>
         </form>
 
-        <div className="demo-auth-note">
-          Prototype mode: authentication is currently simulated in the
-          frontend. Backend authentication will replace this during
-          integration.
-        </div>
-      </div>
+        <p className="login-note">
+          Prototype mode: authentication is simulated in the frontend. Any
+          non-empty credentials are accepted. Backend authentication will
+          replace this during integration.
+        </p>
+      </main>
     </div>
   );
 }

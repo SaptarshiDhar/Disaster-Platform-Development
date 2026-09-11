@@ -1,206 +1,593 @@
+/**
+ * PROTOTYPE HABITATION DATASET — DEMO DATA ONLY.
+ *
+ * Place, district and state names are real Indian locations so the prototype
+ * reads plausibly on a map. EVERY numeric value below (population, households,
+ * exposure percentage, risk score) is invented for demonstration and
+ * corresponds to no survey, census or hazard assessment.
+ *
+ * These values must never be attributed to WorldPop, GSI, ISRO, IMD, NDRF or
+ * any other agency. Future integrations are named as "future source" only.
+ */
+
+export const RELOCATION_PRIORITY = {
+  IMMEDIATE: "Immediate",
+  SHORT_TERM: "Short-Term",
+  MEDIUM_TERM: "Medium-Term",
+  LOW: "Low",
+};
+
+export const ASSESSMENT_STATUS = {
+  NOT_REVIEWED: "Not Reviewed",
+  GIS_ASSESSED: "GIS Assessed",
+  FIELD_REQUIRED: "Field Verification Required",
+  VERIFIED: "Verified",
+  RELOCATION_PENDING: "Relocation Assessment Pending",
+  SITE_IDENTIFIED: "Candidate Site Identified",
+};
+
+// Derives exposedPopulation so the table, KPIs and charts can never disagree.
+const build = (data) => ({
+  isMultiHazard: false,
+  accessibility: "Good",
+  ...data,
+  exposedPopulation: Math.round(data.population * (data.exposurePct / 100)),
+});
+
 export const mockHabitations = [
-  {
+  build({
     id: "HAB-001",
-    name: "Prototype Habitation A",
+    name: "Bhyunder Gaon",
+    state: "Uttarakhand",
+    district: "Chamoli",
+    coordinates: [30.3856, 79.3197],
+    population: 3842,
+    households: 768,
+    area: 1.62,
+    exposurePct: 78,
+    overallRisk: "Very High",
+    primaryHazard: "Landslide",
+    isMultiHazard: true,
+    relocationPriority: RELOCATION_PRIORITY.IMMEDIATE,
+    accessibility: "Limited",
+    assessmentStatus: ASSESSMENT_STATUS.FIELD_REQUIRED,
+    exposure: "Very High",
+    hazards: {
+      landslide: { level: "Very High", score: 88 },
+      flood: { level: "Moderate", score: 44 },
+      multiHazard: { level: "High", score: 76 },
+    },
+    whyVulnerable: [
+      "Situated on steep terrain with recorded slope instability",
+      "Majority of dwellings fall inside the demo landslide zone",
+      "Single road access, historically cut during heavy rainfall",
+      "Limited level ground available for safe in-situ expansion",
+    ],
+    keyFactors: [
+      "Steep slope, 25 to 45 degrees",
+      "High landslide susceptibility zone",
+      "Proximity to drainage line",
+      "Limited evacuation routes",
+    ],
+  }),
+
+  build({
+    id: "HAB-002",
+    name: "Langting",
     state: "Assam",
     district: "Dima Hasao",
-
-    coordinates: [25.45, 93.02],
-
+    coordinates: [25.5167, 93.1833],
     population: 2318,
     households: 471,
     area: 1.42,
-
+    exposurePct: 72,
+    overallRisk: "High",
+    primaryHazard: "Landslide",
+    isMultiHazard: true,
+    relocationPriority: RELOCATION_PRIORITY.IMMEDIATE,
+    accessibility: "Difficult",
+    assessmentStatus: ASSESSMENT_STATUS.RELOCATION_PENDING,
     exposure: "High",
-
     hazards: {
-      landslide: {
-        level: "Very High",
-        score: 88,
-      },
-
-      flood: {
-        level: "Low",
-        score: 26,
-      },
-
-      multiHazard: {
-        level: "High",
-        score: 73,
-      },
+      landslide: { level: "Very High", score: 84 },
+      flood: { level: "Low", score: 26 },
+      multiHazard: { level: "High", score: 71 },
     },
-
-    relocationPriority: "Immediate",
-
-    keyFactors: [
-      "Prototype high landslide susceptibility",
-      "Population exposure within demonstration zone",
-      "Past-disaster-history factor awaiting GIS integration",
-      "Accessibility assessment required",
+    whyVulnerable: [
+      "Hill-cut settlement adjacent to an active slope face",
+      "Rail and road corridor disruption during monsoon",
+      "Population concentrated along the vulnerable contour",
     ],
-  },
-
-  {
-    id: "HAB-002",
-    name: "Prototype Habitation B",
-    state: "Uttarakhand",
-    district: "Chamoli",
-
-    coordinates: [30.42, 79.39],
-
-    population: 1640,
-    households: 332,
-    area: 1.05,
-
-    exposure: "High",
-
-    hazards: {
-      landslide: {
-        level: "Very High",
-        score: 91,
-      },
-
-      flood: {
-        level: "Moderate",
-        score: 48,
-      },
-
-      multiHazard: {
-        level: "Very High",
-        score: 84,
-      },
-    },
-
-    relocationPriority: "Immediate",
-
     keyFactors: [
-      "Prototype landslide-risk demonstration",
-      "Mountainous terrain context",
-      "Population concentration",
-      "Road-access assessment required",
+      "Hill-cut slope instability",
+      "Monsoon access disruption",
+      "Drainage concentration above settlement",
     ],
-  },
+  }),
 
-  {
+  build({
     id: "HAB-003",
-    name: "Prototype Habitation C",
+    name: "Kholapani",
     state: "Bihar",
     district: "Darbhanga",
-
-    coordinates: [26.15, 85.9],
-
-    population: 4870,
-    households: 910,
-    area: 2.7,
-
-    exposure: "Very High",
-
+    coordinates: [26.1542, 85.8918],
+    population: 5120,
+    households: 1024,
+    area: 2.35,
+    exposurePct: 68,
+    overallRisk: "High",
+    primaryHazard: "Flood",
+    relocationPriority: RELOCATION_PRIORITY.IMMEDIATE,
+    accessibility: "Good",
+    assessmentStatus: ASSESSMENT_STATUS.VERIFIED,
+    exposure: "High",
     hazards: {
-      landslide: {
-        level: "Low",
-        score: 17,
-      },
-
-      flood: {
-        level: "Very High",
-        score: 92,
-      },
-
-      multiHazard: {
-        level: "High",
-        score: 76,
-      },
+      landslide: { level: "Very Low", score: 6 },
+      flood: { level: "Very High", score: 86 },
+      multiHazard: { level: "Moderate", score: 52 },
     },
-
-    relocationPriority: "Immediate",
-
-    keyFactors: [
-      "Prototype flood-risk demonstration",
-      "High population exposure",
-      "Low landslide-risk context",
-      "Evacuation accessibility requires assessment",
+    whyVulnerable: [
+      "Low-lying settlement within the demo river inundation extent",
+      "Recurring seasonal waterlogging affecting most households",
+      "Limited raised ground for shelter during peak flow",
     ],
-  },
+    keyFactors: [
+      "Within demo flood inundation extent",
+      "Low relative elevation",
+      "Embankment dependence",
+    ],
+  }),
 
-  {
+  build({
     id: "HAB-004",
-    name: "Prototype Habitation D",
+    name: "Mundakkai",
     state: "Kerala",
     district: "Wayanad",
-
-    coordinates: [11.69, 76.13],
-
-    population: 2860,
-    households: 594,
-    area: 1.83,
-
+    coordinates: [11.4667, 76.1333],
+    population: 4630,
+    households: 926,
+    area: 2.08,
+    exposurePct: 62,
+    overallRisk: "High",
+    primaryHazard: "Landslide",
+    relocationPriority: RELOCATION_PRIORITY.SHORT_TERM,
+    accessibility: "Limited",
+    assessmentStatus: ASSESSMENT_STATUS.GIS_ASSESSED,
     exposure: "High",
-
     hazards: {
-      landslide: {
-        level: "High",
-        score: 79,
-      },
-
-      flood: {
-        level: "Moderate",
-        score: 54,
-      },
-
-      multiHazard: {
-        level: "High",
-        score: 72,
-      },
+      landslide: { level: "Very High", score: 82 },
+      flood: { level: "Moderate", score: 41 },
+      multiHazard: { level: "High", score: 69 },
     },
-
-    relocationPriority: "Short Term",
-
-    keyFactors: [
-      "Prototype multi-hazard demonstration",
-      "Population exposure",
-      "Terrain susceptibility assessment",
-      "Infrastructure suitability pending",
+    whyVulnerable: [
+      "High-rainfall Western Ghats slope setting",
+      "Settlement below a steep upslope catchment",
+      "Narrow approach road constrains evacuation",
     ],
-  },
+    keyFactors: [
+      "Very high seasonal rainfall",
+      "Steep upslope catchment",
+      "Narrow single-lane access",
+    ],
+  }),
 
-  {
+  build({
     id: "HAB-005",
-    name: "Prototype Habitation E",
+    name: "Nuagaon",
     state: "Odisha",
     district: "Kendrapara",
-
-    coordinates: [20.5, 86.42],
-
-    population: 3520,
-    households: 702,
-    area: 2.16,
-
+    coordinates: [20.5, 86.4222],
+    population: 3980,
+    households: 812,
+    area: 1.94,
+    exposurePct: 60,
+    overallRisk: "High",
+    primaryHazard: "Flood",
+    isMultiHazard: true,
+    relocationPriority: RELOCATION_PRIORITY.SHORT_TERM,
+    accessibility: "Good",
+    assessmentStatus: ASSESSMENT_STATUS.GIS_ASSESSED,
     exposure: "High",
-
     hazards: {
-      landslide: {
-        level: "Low",
-        score: 14,
-      },
-
-      flood: {
-        level: "High",
-        score: 81,
-      },
-
-      multiHazard: {
-        level: "High",
-        score: 75,
-      },
+      landslide: { level: "Very Low", score: 4 },
+      flood: { level: "High", score: 78 },
+      multiHazard: { level: "High", score: 66 },
     },
-
-    relocationPriority: "Short Term",
-
-    keyFactors: [
-      "Prototype flood-exposure demonstration",
-      "High population concentration",
-      "Infrastructure exposure requires analysis",
-      "Candidate-site suitability pending",
+    whyVulnerable: [
+      "Coastal deltaic setting exposed to surge and river flooding",
+      "Shallow water table limits natural drainage",
+      "Cyclone season compounds flood exposure",
     ],
-  },
+    keyFactors: [
+      "Deltaic low elevation",
+      "Storm surge exposure",
+      "Compound cyclone and flood season",
+    ],
+  }),
+
+  build({
+    id: "HAB-006",
+    name: "Siyakkad",
+    state: "Uttarakhand",
+    district: "Rudraprayag",
+    coordinates: [30.2847, 78.9811],
+    population: 1860,
+    households: 372,
+    area: 0.88,
+    exposurePct: 58,
+    overallRisk: "High",
+    primaryHazard: "Landslide",
+    relocationPriority: RELOCATION_PRIORITY.SHORT_TERM,
+    accessibility: "Difficult",
+    assessmentStatus: ASSESSMENT_STATUS.VERIFIED,
+    exposure: "High",
+    hazards: {
+      landslide: { level: "High", score: 74 },
+      flood: { level: "Low", score: 22 },
+      multiHazard: { level: "Moderate", score: 55 },
+    },
+    whyVulnerable: [
+      "Slope settlement above a river confluence",
+      "Repeated minor slope failures in the demo history",
+      "Access track vulnerable to washout",
+    ],
+    keyFactors: ["Slope aspect", "Confluence scour", "Track washout risk"],
+  }),
+
+  build({
+    id: "HAB-007",
+    name: "Ziro Old Settlement",
+    state: "Arunachal Pradesh",
+    district: "Lower Subansiri",
+    coordinates: [27.5448, 93.8331],
+    population: 1240,
+    households: 258,
+    area: 0.74,
+    exposurePct: 55,
+    overallRisk: "Medium",
+    primaryHazard: "Multi-Hazard",
+    isMultiHazard: true,
+    relocationPriority: RELOCATION_PRIORITY.MEDIUM_TERM,
+    accessibility: "Limited",
+    assessmentStatus: ASSESSMENT_STATUS.NOT_REVIEWED,
+    exposure: "Moderate",
+    hazards: {
+      landslide: { level: "High", score: 68 },
+      flood: { level: "Moderate", score: 46 },
+      multiHazard: { level: "High", score: 64 },
+    },
+    whyVulnerable: [
+      "Combined slope and seismic exposure in the demo composite",
+      "Remote location increases emergency response time",
+    ],
+    keyFactors: ["Seismic zone", "Remote response time", "Slope exposure"],
+  }),
+
+  build({
+    id: "HAB-008",
+    name: "Phulbari",
+    state: "Assam",
+    district: "Goalpara",
+    coordinates: [26.0333, 90.3],
+    population: 3560,
+    households: 715,
+    area: 1.77,
+    exposurePct: 52,
+    overallRisk: "Medium",
+    primaryHazard: "Flood",
+    relocationPriority: RELOCATION_PRIORITY.MEDIUM_TERM,
+    accessibility: "Good",
+    assessmentStatus: ASSESSMENT_STATUS.GIS_ASSESSED,
+    exposure: "Moderate",
+    hazards: {
+      landslide: { level: "Low", score: 18 },
+      flood: { level: "High", score: 72 },
+      multiHazard: { level: "Moderate", score: 48 },
+    },
+    whyVulnerable: [
+      "Riverine floodplain settlement",
+      "Annual inundation affecting agricultural livelihood",
+    ],
+    keyFactors: ["Floodplain position", "Bank erosion", "Livelihood exposure"],
+  }),
+
+  build({
+    id: "HAB-009",
+    name: "Kottathara",
+    state: "Kerala",
+    district: "Wayanad",
+    coordinates: [11.6, 76.15],
+    population: 2860,
+    households: 590,
+    area: 1.36,
+    exposurePct: 50,
+    overallRisk: "Medium",
+    primaryHazard: "Landslide",
+    relocationPriority: RELOCATION_PRIORITY.MEDIUM_TERM,
+    accessibility: "Limited",
+    assessmentStatus: ASSESSMENT_STATUS.VERIFIED,
+    exposure: "Moderate",
+    hazards: {
+      landslide: { level: "High", score: 66 },
+      flood: { level: "Moderate", score: 38 },
+      multiHazard: { level: "Moderate", score: 54 },
+    },
+    whyVulnerable: [
+      "Plantation slope settlement with modified drainage",
+      "Cut-and-fill construction on unstable material",
+    ],
+    keyFactors: ["Modified drainage", "Cut-and-fill slopes"],
+  }),
+
+  build({
+    id: "HAB-010",
+    name: "Padum",
+    state: "Ladakh",
+    district: "Kargil",
+    coordinates: [33.4667, 76.8833],
+    population: 1120,
+    households: 240,
+    area: 0.66,
+    exposurePct: 48,
+    overallRisk: "Medium",
+    primaryHazard: "Avalanche",
+    relocationPriority: RELOCATION_PRIORITY.MEDIUM_TERM,
+    accessibility: "Difficult",
+    assessmentStatus: ASSESSMENT_STATUS.NOT_REVIEWED,
+    exposure: "Moderate",
+    hazards: {
+      landslide: { level: "Moderate", score: 52 },
+      flood: { level: "Low", score: 20 },
+      multiHazard: { level: "Moderate", score: 47 },
+    },
+    whyVulnerable: [
+      "High-altitude settlement with seasonal isolation",
+      "Snow and avalanche exposure on approach routes",
+    ],
+    keyFactors: ["Seasonal isolation", "Avalanche path proximity"],
+  }),
+
+  build({
+    id: "HAB-011",
+    name: "Joshimath Ward 4",
+    state: "Uttarakhand",
+    district: "Chamoli",
+    coordinates: [30.5556, 79.5644],
+    population: 2980,
+    households: 612,
+    area: 1.18,
+    exposurePct: 74,
+    overallRisk: "Very High",
+    primaryHazard: "Landslide",
+    isMultiHazard: true,
+    relocationPriority: RELOCATION_PRIORITY.IMMEDIATE,
+    accessibility: "Limited",
+    assessmentStatus: ASSESSMENT_STATUS.SITE_IDENTIFIED,
+    exposure: "Very High",
+    hazards: {
+      landslide: { level: "Very High", score: 86 },
+      flood: { level: "Low", score: 24 },
+      multiHazard: { level: "High", score: 72 },
+    },
+    whyVulnerable: [
+      "Settlement on historically unstable slope material",
+      "Structural distress recorded across the demo ward",
+      "Limited alternative land within the same block",
+    ],
+    keyFactors: [
+      "Unstable slope material",
+      "Structural distress reports",
+      "Constrained alternative land",
+    ],
+  }),
+
+  build({
+    id: "HAB-012",
+    name: "Haflong Hill",
+    state: "Assam",
+    district: "Dima Hasao",
+    coordinates: [25.1667, 93.0167],
+    population: 4210,
+    households: 862,
+    area: 2.02,
+    exposurePct: 64,
+    overallRisk: "High",
+    primaryHazard: "Landslide",
+    relocationPriority: RELOCATION_PRIORITY.SHORT_TERM,
+    accessibility: "Limited",
+    assessmentStatus: ASSESSMENT_STATUS.FIELD_REQUIRED,
+    exposure: "High",
+    hazards: {
+      landslide: { level: "High", score: 77 },
+      flood: { level: "Low", score: 19 },
+      multiHazard: { level: "Moderate", score: 58 },
+    },
+    whyVulnerable: [
+      "Dense hill settlement with terraced construction",
+      "Drainage concentration through the built-up area",
+    ],
+    keyFactors: ["Terraced construction density", "Concentrated runoff"],
+  }),
+
+  build({
+    id: "HAB-013",
+    name: "Silchar Riverside",
+    state: "Assam",
+    district: "Cachar",
+    coordinates: [24.8333, 92.7789],
+    population: 6240,
+    households: 1290,
+    area: 2.88,
+    exposurePct: 57,
+    overallRisk: "High",
+    primaryHazard: "Flood",
+    relocationPriority: RELOCATION_PRIORITY.SHORT_TERM,
+    accessibility: "Good",
+    assessmentStatus: ASSESSMENT_STATUS.GIS_ASSESSED,
+    exposure: "High",
+    hazards: {
+      landslide: { level: "Very Low", score: 8 },
+      flood: { level: "Very High", score: 81 },
+      multiHazard: { level: "Moderate", score: 50 },
+    },
+    whyVulnerable: [
+      "Urban settlement adjacent to the river channel",
+      "Drainage congestion during peak river stage",
+    ],
+    keyFactors: ["Channel proximity", "Urban drainage congestion"],
+  }),
+
+  build({
+    id: "HAB-014",
+    name: "Lachen",
+    state: "Sikkim",
+    district: "Mangan",
+    coordinates: [27.7167, 88.55],
+    population: 2306,
+    households: 486,
+    area: 1.21,
+    exposurePct: 66,
+    overallRisk: "High",
+    primaryHazard: "Multi-Hazard",
+    isMultiHazard: true,
+    relocationPriority: RELOCATION_PRIORITY.SHORT_TERM,
+    accessibility: "Difficult",
+    assessmentStatus: ASSESSMENT_STATUS.FIELD_REQUIRED,
+    exposure: "High",
+    hazards: {
+      landslide: { level: "High", score: 73 },
+      flood: { level: "High", score: 70 },
+      multiHazard: { level: "Very High", score: 80 },
+    },
+    whyVulnerable: [
+      "Valley settlement exposed to slope failure and outburst flow paths",
+      "Single approach road with multiple stream crossings",
+    ],
+    keyFactors: [
+      "Glacial outburst flow path",
+      "Slope failure exposure",
+      "Single approach road",
+    ],
+  }),
+
+  build({
+    id: "HAB-015",
+    name: "Malin",
+    state: "Maharashtra",
+    district: "Pune",
+    coordinates: [19.1667, 73.6667],
+    population: 1540,
+    households: 318,
+    area: 0.81,
+    exposurePct: 61,
+    overallRisk: "High",
+    primaryHazard: "Landslide",
+    relocationPriority: RELOCATION_PRIORITY.SHORT_TERM,
+    accessibility: "Limited",
+    assessmentStatus: ASSESSMENT_STATUS.VERIFIED,
+    exposure: "High",
+    hazards: {
+      landslide: { level: "High", score: 75 },
+      flood: { level: "Low", score: 25 },
+      multiHazard: { level: "Moderate", score: 56 },
+    },
+    whyVulnerable: [
+      "Settlement at the base of a modified hill slope",
+      "Upslope land-use change affecting stability",
+    ],
+    keyFactors: ["Upslope land-use change", "Base-of-slope position"],
+  }),
+
+  build({
+    id: "HAB-016",
+    name: "Darjeeling Ward 12",
+    state: "West Bengal",
+    district: "Darjeeling",
+    coordinates: [27.0333, 88.2667],
+    population: 5380,
+    households: 1105,
+    area: 2.14,
+    exposurePct: 54,
+    overallRisk: "Medium",
+    primaryHazard: "Landslide",
+    relocationPriority: RELOCATION_PRIORITY.MEDIUM_TERM,
+    accessibility: "Good",
+    assessmentStatus: ASSESSMENT_STATUS.GIS_ASSESSED,
+    exposure: "Moderate",
+    hazards: {
+      landslide: { level: "High", score: 69 },
+      flood: { level: "Low", score: 21 },
+      multiHazard: { level: "Moderate", score: 51 },
+    },
+    whyVulnerable: [
+      "Dense hillside construction on old terraces",
+      "Ageing drainage infrastructure",
+    ],
+    keyFactors: ["Terrace loading", "Ageing drainage"],
+  }),
+
+  build({
+    id: "HAB-017",
+    name: "Majuli North Bank",
+    state: "Assam",
+    district: "Majuli",
+    coordinates: [26.95, 94.2],
+    population: 3140,
+    households: 648,
+    area: 2.46,
+    exposurePct: 70,
+    overallRisk: "High",
+    primaryHazard: "Flood",
+    isMultiHazard: true,
+    relocationPriority: RELOCATION_PRIORITY.IMMEDIATE,
+    accessibility: "Difficult",
+    assessmentStatus: ASSESSMENT_STATUS.RELOCATION_PENDING,
+    exposure: "High",
+    hazards: {
+      landslide: { level: "Very Low", score: 5 },
+      flood: { level: "Very High", score: 88 },
+      multiHazard: { level: "High", score: 68 },
+    },
+    whyVulnerable: [
+      "River island settlement with progressive bank erosion",
+      "Land loss reduces available safe ground each season",
+      "Ferry-dependent access during high water",
+    ],
+    keyFactors: [
+      "Progressive bank erosion",
+      "Island access dependence",
+      "Shrinking safe ground",
+    ],
+  }),
+
+  build({
+    id: "HAB-018",
+    name: "Chamba Slope",
+    state: "Himachal Pradesh",
+    district: "Chamba",
+    coordinates: [32.5534, 76.1258],
+    population: 2070,
+    households: 432,
+    area: 1.09,
+    exposurePct: 45,
+    overallRisk: "Medium",
+    primaryHazard: "Landslide",
+    relocationPriority: RELOCATION_PRIORITY.MEDIUM_TERM,
+    accessibility: "Limited",
+    assessmentStatus: ASSESSMENT_STATUS.NOT_REVIEWED,
+    exposure: "Moderate",
+    hazards: {
+      landslide: { level: "Moderate", score: 58 },
+      flood: { level: "Low", score: 23 },
+      multiHazard: { level: "Moderate", score: 44 },
+    },
+    whyVulnerable: [
+      "Moderate slope exposure with seasonal rockfall",
+      "Assessment not yet reviewed by a field team",
+    ],
+    keyFactors: ["Seasonal rockfall", "Assessment pending"],
+  }),
 ];
+
+export const habitationById = (id) =>
+  mockHabitations.find((item) => item.id === id) ?? null;
