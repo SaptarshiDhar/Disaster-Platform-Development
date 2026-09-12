@@ -222,7 +222,7 @@ function LandingPage() {
 
               <button
                 className="role-button citizen-button"
-                onClick={() => showComingSoon("Citizen")}
+                onClick={() => navigate("/citizen/login")}
               >
                 Login as Citizen
                 <span>→</span>

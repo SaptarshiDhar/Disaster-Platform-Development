@@ -17,6 +17,8 @@ const HabitationsPage = lazy(() => import("./pages/HabitationsPage"));
 const RelocationPage = lazy(() => import("./pages/RelocationPage"));
 const CandidateSitesPage = lazy(() => import("./pages/CandidateSitesPage"));
 const IncidentsPage = lazy(() => import("./pages/IncidentsPage"));
+const CitizenLogin = lazy(() => import("./pages/CitizenLogin"));
+const CitizenDashboard = lazy(() => import("./pages/CitizenDashboard"));
 
 /**
  * Frontend route guard.
@@ -50,6 +52,9 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/commander-login" element={<CommanderLogin />} />
+
+        <Route path="/citizen/login" element={<CitizenLogin />} />
+        <Route path="/citizen" element={<CitizenDashboard />} />
 
         <Route
           path="/commander"
