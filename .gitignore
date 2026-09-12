@@ -49,3 +49,4 @@ Thumbs.db
 .local/
 web/.next/
 services/flood-forecast-engine/.venv/
+services/flood-forecast-engine/data/cache/

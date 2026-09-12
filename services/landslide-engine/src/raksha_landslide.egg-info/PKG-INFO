@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: raksha-landslide
+Version: 0.1.0
+Summary: RAKSHA Landslide Susceptibility Engine — experimental spatial susceptibility service
+Requires-Python: >=3.11
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: xgboost
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: requests
+Requires-Dist: shap
+Requires-Dist: joblib
+Requires-Dist: pydantic
+Requires-Dist: pyyaml
