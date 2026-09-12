@@ -1,0 +1,871 @@
+district_norm,district_raw,state_raw,latitude,longitude,geocoded_name,geocoded_admin1,geocoded_admin2,resolved
+nan,nan,Assam,26.48675,91.50271,Nankar Bhaira,Assam,Nalbari,True
+damoh,Damoh,Odisha,23.83312,79.4419,Damoh,Madhya Pradesh,Damoh,True
+shajapur,Shajapur,Odisha,23.42637,76.27775,Shājāpur,Madhya Pradesh,Shājāpur District,True
+vidisha,Vidisha,Odisha,23.52604,77.81092,Vidisha,Madhya Pradesh,Vidisha,True
+rajgarh,Rajgarh,Odisha,28.64201,75.38612,Rājgarh,Rajasthan,Churu,True
+shahdol,Shahdol,Odisha,23.29356,81.3619,Shahdol,Madhya Pradesh,Shahdol,True
+katni,Katni,Odisha,20.30173,85.71695,Kātni,Odisha,Khordha,True
+umaria,Umaria,Odisha,23.52473,80.83716,Umaria,Madhya Pradesh,Umaria,True
+ratlam,Ratlam,Odisha,23.33033,75.04032,Ratlām,Madhya Pradesh,Ratlam,True
+bhopal,Bhopal,Odisha,23.25469,77.40289,Bhopal,Madhya Pradesh,Bhopal District,True
+ujjain,Ujjain,Odisha,23.18239,75.77643,Ujjain,Madhya Pradesh,Ujjain district,True
+sehore,Sehore,Odisha,23.2,77.08333,Sehore,Madhya Pradesh,Sehore,True
+jabalpur,Jabalpur,Odisha,20.701,84.47735,Jabalpur,Odisha,Bauda District,True
+dewas,Dewas,Odisha,22.96585,76.05526,Dewas,Madhya Pradesh,Dewas district,True
+jhabua,Jhabua,Odisha,22.76772,74.59087,Jhābua,Madhya Pradesh,Jhabua,True
+sagar,Sagar,Odisha,20.46282,85.14163,Sāgar,Odisha,Cuttack District,True
+dindori,Dindori,Odisha,22.94141,81.07975,Dindori,Madhya Pradesh,Dindori,True
+narsimhapur,Narsimhapur,Odisha,22.94936,79.18357,Narsimhapur,Madhya Pradesh,Narsinghpur,True
+dhar,Dhar,Odisha,20.82177,82.69849,Dhārol,Odisha,Bargarh,True
+indore,Indore,Odisha,22.71792,75.8333,Indore,Madhya Pradesh,Indore district,True
+mandla,Mandla,Odisha,18.37703,82.98955,Mandlavalasa,Odisha,Koraput District,True
+narmadapuram,Narmadapuram,Odisha,22.74747,77.72736,Narmadapuram,Madhya Pradesh,Hoshangābād District,True
+seoni,Seoni,Odisha,22.08503,79.55037,Seoni,Madhya Pradesh,Seoni,True
+alirajpur,Alirajpur,Odisha,22.30393,74.35568,Alirajpur,Madhya Pradesh,Alirajpur,True
+chhindwara,Chhindwara,Odisha,22.05697,78.93958,Chhindwāra,Madhya Pradesh,Chhindwara,True
+harda,Harda,Odisha,20.03911,82.72139,Hardāpāra,Odisha,Nuapada,True
+khargone khargone west nimar,Khargone (Khargone (West Nimar)),Odisha,,,,,,False
+east nimar,East Nimar,Odisha,,,,,,False
+anuppur,Anuppur,Odisha,23.10344,81.69083,Anūppur,Madhya Pradesh,Anuppur,True
+sidhi,Sidhi,Odisha,24.4038,81.87954,Sidhi,Madhya Pradesh,Sidhi,True
+mandsaur,Mandsaur,Odisha,24.07184,75.06986,Mandsaur,Madhya Pradesh,Mandasor District,True
+balaghat,Balaghat,Odisha,21.8156,80.18845,Bālāghāt,Madhya Pradesh,Bālāghāt District,True
+sonbhadra,Sonbhadra,Odisha,25.12637,84.72867,Sonbhadra,Bihar,Arwal,True
+amethi,Amethi,Odisha,26.15696,81.80519,Amethī,Uttar Pradesh,Amethi,True
+ghaziabad,Ghaziabad,Odisha,28.66535,77.43915,Ghaziabad,Uttar Pradesh,Ghaziabad,True
+sambhal,Sambhal,Odisha,28.58498,78.56959,Sambhal,Uttar Pradesh,Sambhal,True
+mahoba,Mahoba,Odisha,25.2905,79.87533,Mahoba,Uttar Pradesh,Mahoba Quarter,True
+saharanpur,Saharanpur,Odisha,29.9679,77.54522,Sahāranpur,Uttar Pradesh,Sahāranpur District,True
+bijnor,Bijnor,Odisha,29.373,78.13636,Bijnor,Uttar Pradesh,Bijnor district,True
+muzaffarnagar,Muzaffarnagar,Odisha,29.47091,77.70332,Muzaffarnagar,Uttar Pradesh,Muzaffarnagar district,True
+baghpat,Baghpat,Odisha,28.94485,77.21865,Bagpat,Uttar Pradesh,Baghpat District,True
+meerut,Meerut,Odisha,28.98002,77.70636,Meerut,Uttar Pradesh,Meerut,True
+moradabad,Moradabad,Odisha,28.83893,78.77684,Morādābād,Uttar Pradesh,Moradabad,True
+rampur,Rampur,Odisha,21.07351,84.34095,Rāmpur,Odisha,Sambalpur District,True
+shamli,Shamli,Odisha,29.4497,77.30959,Shamli,Uttar Pradesh,Shamli,True
+singrauli,Singrauli,Odisha,24.19973,82.67535,Singrauli,Madhya Pradesh,Singrauli,True
+balrampur,Balrampur,Odisha,19.93878,83.204,Balrāmpur,Odisha,Kalahandi,True
+pratapgarh,Pratapgarh,Odisha,25.92058,81.99629,Bela,Uttar Pradesh,Partabgarh District,True
+burhanpur,Burhanpur,Odisha,21.30868,76.23026,Burhānpur,Madhya Pradesh,Burhanpur,True
+morena,Morena,Odisha,26.49892,77.99534,Morena,Madhya Pradesh,Morena,True
+bhind,Bhind,Odisha,26.56671,78.78728,Bhind,Madhya Pradesh,Bhind,True
+gwalior,Gwalior,Odisha,26.22983,78.17337,Gwalior,Madhya Pradesh,Gwalior District,True
+sheopur,Sheopur,Odisha,25.66472,76.69616,Sheopur,Madhya Pradesh,Sheopur,True
+shivpuri,Shivpuri,Odisha,25.42378,77.66223,Shivpuri,Madhya Pradesh,Shivpuri,True
+tikamgarh,Tikamgarh,Odisha,24.74327,78.83061,Tīkamgarh,Madhya Pradesh,Tikamgarh,True
+neemuch,Neemuch,Odisha,24.45949,74.86625,Nimach,Rajasthan,,True
+rewa,Rewa,Odisha,21.05961,82.64294,Rewa,Odisha,Nuapada,True
+satna,Satna,Odisha,24.57726,80.82719,Satna,Madhya Pradesh,Satna,True
+guna,Guna,Odisha,19.98379,83.28011,Gunang,Odisha,Kalahandi,True
+ashoknagar,Ashoknagar,Odisha,24.57578,77.73123,Ashoknagar,Madhya Pradesh,Ashoknagar District,True
+hamirpur,Hamirpur,Odisha,25.9553,80.14842,Hamīrpur,Uttar Pradesh,Hamirpur,True
+barwani,Barwani,Odisha,22.03232,74.89982,Barwāni,Madhya Pradesh,Barwani,True
+agar malwa,Agar-Malwa,Odisha,,,,,,False
+datia,Datia,Odisha,25.67312,78.45908,Datia,Madhya Pradesh,Datia,True
+chittorgarh,Chittorgarh,Odisha,24.88963,74.62403,Chittorgarh,Rajasthan,Chittorgarh,True
+ganganagar,Ganganagar,Odisha,24.60769,92.96395,Ganganagar,Assam,Cachar,True
+hanumangarh,Hanumangarh,Odisha,29.58182,74.32938,Hanumāngarh,Rajasthan,Hanumangarh,True
+bikaner,Bikaner,Odisha,28.01762,73.31495,Bikaner,Rajasthan,Bīkāner District,True
+jhajjar,Jhajjar,Odisha,28.6063,76.6565,Jhajjar,Haryana,Jhajjar,True
+gurugram,Gurugram,Odisha,19.85121,83.46584,Gurugramam,Odisha,Rayagada,True
+faridabad,Faridabad,Odisha,28.41124,77.31316,Faridabad,Haryana,Faridabad,True
+mahendragarh,Mahendragarh,Odisha,28.26935,76.15253,Mahendragarh,Haryana,Mahendragarh,True
+rewari,Rewari,Odisha,28.199,76.6183,Rewāri,Haryana,Rewari,True
+nuh,Nuh,Odisha,20.31294,85.04116,Nuhārkhani,Odisha,Nayagarh,True
+palwal,Palwal,Odisha,28.14469,77.32546,Palwal,Haryana,Palwal District,True
+charki dadri,Charki Dadri,Odisha,28.59166,76.27161,Charkhi Dādri,Haryana,Charki Dadri,True
+yamunanagar,Yamunanagar,Odisha,30.12796,77.28371,Yamunanagar,Haryana,Yamunanagar District,True
+kurukshetra,Kurukshetra,Odisha,29.9657,76.837,Kurukshetra,Haryana,Kurukshetra,True
+kaithal,Kaithal,Odisha,29.80153,76.39959,Kaithal,Haryana,Kaithal,True
+sirsa,Sirsa,Odisha,22.23395,86.65457,Sirsā,Odisha,Mayurbhanj,True
+karnal,Karnal,Odisha,29.69197,76.98448,Karnāl,Haryana,Karnāl District,True
+jind,Jind,Odisha,29.31577,76.31502,Jīnd,Haryana,Jind,True
+fatehabad,Fatehabad,Odisha,29.51525,75.45554,Fatehābād,Haryana,Fatehabad,True
+hisar,Hisar,Odisha,29.15394,75.72294,Hisar,Haryana,Hissār District,True
+panipat,Panipat,Odisha,29.38747,76.96825,Panipat,Haryana,Panipat District,True
+sonipat,Sonipat,Odisha,28.99478,77.01937,Sonīpat,Haryana,Sonipat,True
+bhiwani,Bhiwani,Odisha,28.79304,76.13968,Bhiwāni,Haryana,Bhiwani,True
+rohtak,Rohtak,Odisha,28.89447,76.58917,Rohtak,Haryana,Rohtak,True
+panchkula,Panchkula,Odisha,30.69461,76.8504,Panchkula,Haryana,Panchkula district,True
+ambala,Ambala,Odisha,19.80917,83.07542,Ambalāsa,Odisha,Kalahandi,True
+rajsamand,Rajsamand,Odisha,25.07145,73.8798,Rājsamand,Rajasthan,Rajasmand District,True
+ajmer,Ajmer,Odisha,26.4521,74.63867,Ajmer,Rajasthan,Ajmer district,True
+banswara,Banswara,Odisha,23.54109,74.4425,Bānswāra,Rajasthan,Banswara,True
+dungarpur,Dungarpur,Odisha,23.84306,73.71466,Dūngarpur,Rajasthan,Dungarpur,True
+chhatarpur,Chhatarpur,Odisha,19.7246,83.40138,Chhatarpur,Odisha,Kalahandi,True
+panna,Panna,Odisha,18.26275,81.85437,Pannar,Odisha,Malkangiri,True
+betul,Betul,Odisha,21.90056,77.90229,Betūl,Madhya Pradesh,Betūl District,True
+niwari,Niwari,Odisha,25.34911,78.79974,Nivāri,Madhya Pradesh,Niwari,True
+churu,Churu,Odisha,28.30415,74.96718,Chūru,Rajasthan,Churu,True
+jhunjhunu,Jhunjhunu,Odisha,28.12559,75.39797,Jhunjhunūn,Rajasthan,Jhunjhunu,True
+jaisalmer,Jaisalmer,Odisha,26.91763,70.90387,Jaisalmer,Rajasthan,Jaisalmer,True
+sikar,Sikar,Odisha,20.61487,84.29648,Sikāri,Odisha,Kandhamal,True
+alwar,Alwar,Odisha,27.56246,76.625,Alwar,Rajasthan,Alwar,True
+jaipur,Jaipur,Odisha,20.29784,84.99775,Jaipur,Odisha,Nayagarh,True
+jodhpur,Jodhpur,Odisha,21.15487,82.7109,Jodhpur,Odisha,Bargarh,True
+bharatpur,Bharatpur,Odisha,20.99348,84.44053,Bharatpur,Odisha,Anugul,True
+nagaur,Nagaur,Odisha,27.20201,73.73394,Nāgaur,Rajasthan,Nagaur,True
+lalitpur,Lalitpur,Odisha,24.69007,78.41915,Lalitpur,Uttar Pradesh,Lalitpur,True
+dausa,Dausa,Odisha,26.89,76.33584,Dausa,Rajasthan,Dausa,True
+dholpur,Dholpur,Odisha,20.70376,84.48351,Dholpur,Odisha,Bauda District,True
+barmer,Barmer,Odisha,25.74572,71.39211,Bārmer,Rajasthan,Bārmer District,True
+sawai madhopur,Sawai Madhopur,Odisha,26.02301,76.34408,Sawai Madhopur,Rajasthan,Sawai Madhopur,True
+tonk,Tonk,Odisha,20.06279,82.47078,Tonkamal,Odisha,Nuapada,True
+pali,Pali,Odisha,18.67209,82.69457,Paliba,Odisha,Koraput District,True
+bhilwara,Bhilwara,Odisha,25.34707,74.64081,Bhilwara,Rajasthan,Bhīlwāra District,True
+jalore,Jalore,Odisha,,,,,,False
+bundi,Bundi,Odisha,21.78062,83.91393,Bundia,Odisha,Jharsuguda,True
+kota,Kota,Odisha,18.39558,82.94472,Kotab,Odisha,Koraput District,True
+sirohi,Sirohi,Odisha,24.88838,72.84794,Sirohi,Rajasthan,Sirohi,True
+baran,Baran,Odisha,20.40714,85.83496,Bārang,Odisha,Cuttack District,True
+udaipur,Udaipur,Odisha,20.62238,83.74428,Udaipur,Odisha,Bauda District,True
+jhalawar,Jhalawar,Odisha,24.59633,76.16499,Jhālāwār,Rajasthan,Jhalawar,True
+karauli,Karauli,Odisha,26.49831,77.02755,Karauli,Rajasthan,Karauli,True
+mirzapur,Mirzapur,Odisha,25.1449,82.56534,Mirzāpur,Uttar Pradesh,Mirzapur,True
+raisen,Raisen,Odisha,23.33033,77.7811,Raisen,Madhya Pradesh,Raisen,True
+chandauli,Chandauli,Odisha,25.25803,83.26825,Chandauli,Uttar Pradesh,Chandauli,True
+sitamarhi,Sitamarhi,Odisha,26.59357,85.4906,Sītāmarhi,Bihar,Sītāmarhi District,True
+sheohar,Sheohar,Odisha,26.51393,85.29341,Sheohar,Bihar,Sheohar District,True
+gopalganj,Gopalganj,Odisha,26.46734,84.44041,Gopālganj,Bihar,Gopalganj,True
+samastipur,Samastipur,Odisha,25.86222,85.77953,Samāstipur,Bihar,Samastipur,True
+katihar,Katihar,Odisha,25.53852,87.57044,Katihar,Bihar,Katihar,True
+khagaria,Khagaria,Odisha,25.5022,86.46708,Khagaria,Bihar,Khagaria,True
+bhojpur,Bhojpur,Odisha,21.65118,84.40641,Bhojpur,Odisha,Sambalpur District,True
+buxar,Buxar,Odisha,25.57548,83.98043,Buxar,Bihar,Buxar,True
+darbhanga,Darbhanga,Odisha,26.15216,85.89707,Darbhanga,Bihar,Darbhanga district,True
+saharsa,Saharsa,Odisha,25.87498,86.59611,Saharsa,Bihar,Saharsa,True
+kaimur bhabua,Kaimur (Bhabua),Odisha,,,,,,False
+rohtas,Rohtas,Odisha,24.62978,83.92,Rohtas,Bihar,Rohtas District,True
+jamui,Jamui,Odisha,24.92606,86.22531,Jamūī,Bihar,Jamui,True
+purbi champaran,Purbi Champaran,Odisha,,,,,,False
+banka,Banka,Odisha,20.88149,82.49988,Banka,Odisha,Nuapada,True
+gaya,Gaya,Odisha,21.70059,84.27719,Gayāmāl,Odisha,Sambalpur District,True
+munger,Munger,Odisha,25.37459,86.47455,Munger,Bihar,Munger District,True
+vaishali,Vaishali,Odisha,25.99197,85.08156,Vaishali,Bihar,Muzaffarpur district,True
+begusarai,Begusarai,Odisha,25.41853,86.13389,Begusarai,Bihar,Begusarai,True
+bhagalpur,Bhagalpur,Odisha,25.24446,86.97183,Bhagalpur,Bihar,Bhāgalpur District,True
+lakhisarai,Lakhisarai,Odisha,,,,,,False
+sheikhpura,Sheikhpura,Odisha,25.13994,85.84096,Sheikhpura,Bihar,Sheikhpura,True
+arwal,Arwal,Odisha,25.24281,84.66571,Arwal,Bihar,Arwal,True
+jehanabad,Jehanabad,Odisha,25.21368,84.9871,Jahānābād,Bihar,Jehanabad,True
+nalanda,Nalanda,Odisha,,,,,,False
+patna,Patna,Odisha,21.63612,85.89683,Patna,Odisha,Kendujhar,True
+saran,Saran,Odisha,20.92552,85.26403,Saranga,Odisha,Dhenkānāl District,True
+siwan,Siwan,Odisha,26.22096,84.35609,Siwān,Bihar,Siwan,True
+nawada,Nawada,Odisha,24.8867,85.54364,Nawāda,Bihar,Nawada District,True
+muzaffarpur,Muzaffarpur,Odisha,26.12259,85.39055,Muzaffarpur,Bihar,Muzaffarpur district,True
+pashchim champaran,Pashchim Champaran,Odisha,,,,,,False
+deogarh,Deogarh,Odisha,21.53827,84.73337,Deogarh,Odisha,Deogarh,True
+bhadrak,Bhadrak,Odisha,21.05447,86.5156,Bhadrak,Odisha,Bhadrak,True
+dhenkanal,Dhenkanal,Odisha,20.65744,85.59693,Dhenkānāl,Odisha,Dhenkānāl District,True
+jajapur,Jajapur,Odisha,16.72579,77.54201,Jājāpur,Telangana,Narayanpet,True
+subarnapur,Subarnapur,Odisha,20.87612,84.3709,Subarnapur,Odisha,Anugul,True
+nuapada,Nuapada,Odisha,20.8167,82.5333,Nuapada,Odisha,Nuapada,True
+balangir,Balangir,Odisha,20.70419,83.49029,Balāngīr,Odisha,Balangir,True
+boudh,Boudh,Odisha,,,,,,False
+cuttack,Cuttack,Odisha,20.46497,85.87927,Cuttack,Odisha,Cuttack District,True
+kandhamal,Kandhamal,Odisha,,,,,,False
+nayagarh,Nayagarh,Odisha,20.12882,85.09626,Nayāgarh,Odisha,Nayagarh,True
+khordha,Khordha,Odisha,20.18268,85.61629,Khordha,Odisha,Khordha,True
+kalahandi,Kalahandi,Odisha,20.13661,85.0799,Kalāhāndi,Odisha,Nayagarh,True
+jagatsinghapur,Jagatsinghapur,Odisha,20.2557,86.17112,Jagatsinghapur,Odisha,Jagatsinghapur,True
+sambalpur,Sambalpur,Odisha,21.46527,83.97573,Sambalpur,Odisha,Sambalpur District,True
+puri,Puri,Odisha,19.79825,85.82494,Puri,Odisha,Puri,True
+rayagada,Rayagada,Odisha,19.17132,83.41428,Rāyagada,Odisha,Rayagada,True
+bhadohi,Bhadohi,Odisha,25.39526,82.5703,Bhadohi,Uttar Pradesh,Bhadohi district,True
+malkangiri,Malkangiri,Odisha,17.21222,77.51715,Malkangiri,Telangana,Vikarabad,True
+anugul,Anugul,Odisha,,,,,,False
+kendrapara,Kendrapara,Odisha,20.50166,86.42227,Kendrāparha,Odisha,Kendrapara,True
+ganjam,Ganjam,Odisha,19.31151,84.7929,Brahmapur,Odisha,Ganjam,True
+gajapati,Gajapati,Odisha,18.27936,83.33647,Gajapatinagaram,Andhra Pradesh,Vizianagaram District,True
+mayurbhanj,Mayurbhanj,Odisha,21.93458,86.72852,Baripāda,Odisha,Mayurbhanj,True
+sundargarh,Sundargarh,Odisha,27.37421,78.39282,Sundargarh,Uttar Pradesh,Etah district,True
+kendujhar,Kendujhar,Odisha,21.51945,83.36356,Kendujharan,Odisha,Bargarh,True
+baleshwar,Baleshwar,Odisha,21.49266,86.93348,Balasore,Odisha,Balasore District,True
+jharsuguda,Jharsuguda,Odisha,21.85531,84.00698,Jharsuguda,Odisha,Jharsuguda,True
+bargarh,Bargarh,Odisha,21.33348,83.61905,Bargarh,Odisha,Bargarh,True
+nagpur,Nagpur,Odisha,20.1161,85.15401,Nāgpur,Odisha,Nayagarh,True
+madhepura,Madhepura,Odisha,25.92127,86.79271,Madhepura,Bihar,Madhepura,True
+koraput,Koraput,Odisha,18.81199,82.71048,Koraput,Odisha,Koraput District,True
+supaul,Supaul,Odisha,26.11527,86.59509,Supaul,Bihar,Supaul,True
+kannauj,Kannauj,Odisha,27.05524,79.9188,Kannauj,Uttar Pradesh,Kannauj,True
+lucknow,Lucknow,Odisha,26.83928,80.92313,Lucknow,Uttar Pradesh,Lucknow,True
+basti,Basti,Odisha,20.25185,84.38419,Bastingia,Odisha,Kandhamal,True
+gorakhpur,Gorakhpur,Odisha,19.23351,83.10413,Gorakhpur,Odisha,Rayagada,True
+sant kabir nagar,Sant Kabir Nagar,Odisha,,,,,,False
+unnao,Unnao,Odisha,26.54706,80.48781,Unnāo,Uttar Pradesh,Unao District,True
+etawah,Etawah,Odisha,26.77615,79.02133,Etāwah,Uttar Pradesh,Etāwah District,True
+kanpur nagar nagar,Kanpur nagar Nagar,Odisha,,,,,,False
+auraiya,Auraiya,Odisha,26.46517,79.50918,Auraiya,Uttar Pradesh,Auraiya,True
+ayodhya,Ayodhya,Odisha,21.63333,86.6,Ayodhya,Odisha,Mayurbhanj,True
+kanpur nagar dehat,Kanpur nagar Dehat,Odisha,,,,,,False
+deoria,Deoria,Odisha,26.50167,83.77936,Deoria,Uttar Pradesh,Deoria,True
+sultanpur,Sultanpur,Odisha,26.25788,82.07269,Sultānpur,Uttar Pradesh,Sultānpur District,True
+kushinagar,Kushinagar,Odisha,26.74134,83.88689,Kushinagar,Uttar Pradesh,Kushi Nagar,True
+ambedkar nagar,Ambedkar Nagar,Odisha,,,,,,False
+jalaun,Jalaun,Odisha,26.1451,79.3366,Jālaun,Uttar Pradesh,Jalaun,True
+azamgarh,Azamgarh,Odisha,26.06832,83.18358,Azamgarh,Uttar Pradesh,Azamgarh District,True
+mau,Mau,Odisha,18.76169,82.49355,Maūli,Odisha,Koraput District,True
+fatehpur,Fatehpur,Odisha,25.92774,80.81266,Fatehpur,Uttar Pradesh,Fatehpur District,True
+ballia,Ballia,Odisha,25.42139,86.31445,Ballia,Bihar,Begusarai,True
+jhansi,Jhansi,Odisha,25.45887,78.57994,Jhānsi,Uttar Pradesh,Jhānsi District,True
+banda,Banda,Odisha,21.41522,83.68574,Banda,Odisha,Bargarh,True
+ghazipurr,Ghazipurr,Odisha,,,,,,False
+kaushambi,Kaushambi,Odisha,,,,,,False
+prayagraj,Prayagraj,Odisha,25.44478,81.84322,Prayagraj,Uttar Pradesh,Prayagraj,True
+varanasi,Varanasi,Odisha,18.85484,83.87134,Vāranāsi,Odisha,Gajapati,True
+chitrakoot,Chitrakoot,Odisha,25.21473,80.91645,Chitrakoot Dham,Uttar Pradesh,Chitrakoot,True
+araria,Araria,Odisha,26.14934,87.51323,Arāria,Bihar,Araria,True
+rae bareli,Rae Bareli,Odisha,26.2309,81.23315,Raebareli,Uttar Pradesh,Rae Bareli,True
+bara banki,Bara Banki,Odisha,26.92384,81.17927,Bāra Bankī,Uttar Pradesh,Barabanki,True
+jaunpur,Jaunpur,Odisha,25.75356,82.68689,Jaunpur,Uttar Pradesh,Jaunpur district,True
+agra,Agra,Odisha,20.49255,82.63422,Agrāyan,Odisha,Nuapada,True
+madhubani,Madhubani,Odisha,26.35367,86.07169,Madhubani,Bihar,Madhubani,True
+gonda,Gonda,Odisha,21.64469,84.54816,Gondam,Odisha,Deogarh,True
+purnia,Purnia,Odisha,21.67851,85.7623,Purnia,Odisha,Kendujhar,True
+kishanganj,Kishanganj,Odisha,26.10224,87.95534,Kishanganj,Bihar,Kishanganj,True
+aurangabad,Aurangabad,Odisha,19.87757,75.34226,Aurangabad,Maharashtra,Aurangabad District,True
+hapur,Hapur,Odisha,28.72985,77.78068,Hāpur,Uttar Pradesh,Hapur,True
+bareilly,Bareilly,Odisha,28.36678,79.43167,Bareilly,Uttar Pradesh,Bareilly district,True
+pilibhit,Pilibhit,Odisha,28.63124,79.80436,Pīlibhīt,Uttar Pradesh,Pilibhit District,True
+bulandshahr,Bulandshahr,Odisha,28.40392,77.85773,Bulandshahr,Uttar Pradesh,Bulandshahr district,True
+gautam buddha nagar,Gautam Buddha Nagar,Odisha,,,,,,False
+kheri,Kheri,Odisha,21.96407,84.15383,Kheriākāni,Odisha,Jharsuguda,True
+budaun,Budaun,Odisha,28.03811,79.12668,Budaun,Uttar Pradesh,Budaun district,True
+bahraich,Bahraich,Odisha,27.57429,81.59474,Bahraich,Uttar Pradesh,Bahraich district,True
+shahjahanpur,Shahjahanpur,Odisha,27.88165,79.90918,Shahjahanpur,Uttar Pradesh,Shāhjahānpur District,True
+amroha,Amroha,Odisha,28.90314,78.46984,Amroha,Uttar Pradesh,Amroha district,True
+kasganj,Kasganj,Odisha,27.80882,78.64579,Kasganj,Uttar Pradesh,Kasganj District,True
+mainpuri,Mainpuri,Odisha,27.22857,79.02882,Mainpuri,Uttar Pradesh,Mainpuri district,True
+mahrajganj,Mahrajganj,Odisha,24.30569,79.89476,Mahrājganj,Madhya Pradesh,Panna,True
+aligarh,Aligarh,Odisha,27.88145,78.07464,Aligarh,Uttar Pradesh,Alīgarh District,True
+siddharthnagar,Siddharthnagar,Odisha,,,,,,False
+farrukhabad,Farrukhabad,Odisha,27.39134,79.5793,Farrukhābād,Uttar Pradesh,Farrukhābād District,True
+hardoi,Hardoi,Odisha,27.39491,80.13165,Hardoī,Uttar Pradesh,Hardoi district,True
+firozabad,Firozabad,Odisha,27.15092,78.39781,Firozabad,Uttar Pradesh,Firozabad,True
+hathras,Hathras,Odisha,27.59551,78.05201,Hāthras,Uttar Pradesh,Hathras,True
+sitapur,Sitapur,Odisha,20.82841,84.13535,Sītāpur,Odisha,Bauda District,True
+sshrawasti,SShrawasti,Odisha,,,,,,False
+mathura,Mathura,Odisha,22.05265,85.62158,Mathurāpur,Odisha,Kendujhar,True
+etah,Etah,Odisha,27.55879,78.65692,Etah,Uttar Pradesh,Etah district,True
+kasaragod,Kasaragod,Kerala,12.49838,74.98959,Kāsaragod,Kerala,Kasargod District,True
+wayanad,Wayanad,Kerala,,,,,,False
+kozhikode,Kozhikode,Kerala,11.24802,75.7804,Kozhikode,Kerala,Kozhikode,True
+malappuram,Malappuram,Kerala,11.04199,76.08154,Malappuram,Kerala,Malappuram,True
+palakkad,Palakkad,Kerala,10.77319,76.65366,Palakkad,Kerala,Palakkad,True
+thrissur,Thrissur,Kerala,10.51667,76.21667,Thrissur,Kerala,Thrissur,True
+idukki,Idukki,Kerala,9.85,76.96667,Idukki,Kerala,Idukki district,True
+ernakulam,Ernakulam,Kerala,9.96714,76.29036,Ernākulam,Kerala,Ernakulam District,True
+alappuzha,Alappuzha,Kerala,9.49004,76.3264,Alappuzha,Kerala,Alleppey District,True
+kottayam,Kottayam,Kerala,9.58692,76.52132,Kottayam,Kerala,Kottayam,True
+pathanamthitta,Pathanamthitta,Kerala,9.26667,76.78333,Pathanāmthitta,Kerala,Pathanamthitta,True
+kollam,Kollam,Kerala,8.88113,76.58469,Kollam,Kerala,Kollam,True
+thiruvananthapuram,Thiruvananthapuram,Kerala,8.4855,76.94924,Thiruvananthapuram,Kerala,Thiruvananthapuram,True
+kannur,Kannur,Kerala,11.86752,75.35763,Kannur,Kerala,Kannur district,True
+jhunjhunun,Jhunjhunun,Kerala,28.12559,75.39797,Jhunjhunūn,Rajasthan,Jhunjhunu,True
+surat,Surat,Gujarat,21.19594,72.83023,Surat,Gujarat,Surat District,True
+jalpaiguri,Jalpaiguri,West Bengal,26.51667,88.73333,Jalpāiguri,West Bengal,Jalpaiguri District,True
+cooch behar,Cooch Behar,West Bengal,26.32539,89.44508,Koch Bihār,West Bengal,Cooch Behar,True
+darjeeling,Darjeeling,West Bengal,27.03333,88.26667,Darjeeling,West Bengal,Darjeeling,True
+gangtok,Gangtok,Sikkim,27.32574,88.61216,Gangtok,Sikkim,Gangtok district,True
+kodagu,Kodagu,Karnataka,13.2996,77.70028,Kodagurki,Karnataka,Bengaluru Rural,True
+chamarajanagaraa,Chamarajanagaraa,Karnataka,,,,,,False
+tumakuru,Tumakuru,Karnataka,13.34136,77.1022,Tumakuru,Karnataka,Tumkūr,True
+ramanagara,Ramanagara,Karnataka,17.00474,80.7108,Rāmanagaram,Andhra Pradesh,NTR,True
+mandya,Mandya,Karnataka,12.5223,76.89746,Mandya,Karnataka,Mandya,True
+mysuru,Mysuru,Karnataka,12.29791,76.63925,Mysuru,Karnataka,Mysuru,True
+vijayapura,Vijayapura,Karnataka,16.82442,75.71537,Bijapur,Karnataka,Bijāpur District,True
+bengaluru urban,Bengaluru Urban,Karnataka,,,,,,False
+bengaluru rural,Bengaluru Rural,Karnataka,,,,,,False
+dakshina kannada,Dakshina Kannada,Karnataka,,,,,,False
+beedar,Beedar,Karnataka,,,,,,False
+kalaburagi,Kalaburagi,Karnataka,17.33583,76.83757,Kalaburagi,Karnataka,Kalaburagi,True
+belagavi,Belagavi,Karnataka,15.85212,74.50447,Belagavi,Karnataka,Belgaum district,True
+yadgir,Yadgir,Karnataka,16.77007,77.13755,Yadgir,Karnataka,Yadgir,True
+raichur,Raichur,Karnataka,16.20546,77.35567,Rāichūr,Karnataka,Raichur district,True
+koppal,Koppal,Karnataka,15.34522,76.15478,Koppal,Karnataka,Koppal,True
+gadag,Gadag,Karnataka,15.42977,75.62971,Gadag,Karnataka,Gadag,True
+ballari,Ballari,Karnataka,15.14205,76.92398,Ballari,Karnataka,Ballari,True
+dharwad,Dharwad,Karnataka,15.46005,75.00778,Dharwad,Karnataka,Dharwad district,True
+bagalkotee,Bagalkotee,Karnataka,,,,,,False
+haveri,Haveri,Karnataka,14.79354,75.40448,Hāveri,Karnataka,Haveri,True
+chitradurga,Chitradurga,Karnataka,14.22262,76.40038,Chitradurga,Karnataka,Chitradurga district,True
+davangere,Davangere,Karnataka,14.46693,75.92694,Davangere,Karnataka,Davangere,True
+shivamogga,Shivamogga,Karnataka,13.93157,75.56791,Shivamogga,Karnataka,Shimoga District,True
+udupi,Udupi,Karnataka,13.33467,74.74617,Udupi,Karnataka,Udupi,True
+chikkamagaluru,Chikkamagaluru,Karnataka,13.32231,75.774,Chikkamagaluru,Karnataka,Chikkamagaluru,True
+chikkaballapura,Chikkaballapura,Karnataka,,,,,,False
+hassan,Hassan,Karnataka,13.00715,76.0962,Hassan,Karnataka,Hassan,True
+uttar kashia kannada,Uttar Kashia Kannada,Karnataka,,,,,,False
+kolar,Kolar,Karnataka,13.13768,78.12999,Kolār,Karnataka,Kolar district,True
+samba,Samba,Jammu and Kashmir,32.56245,75.11993,Sāmba,Jammu and Kashmir,Samba District,True
+jammu,Jammu,Jammu and Kashmir,32.73528,74.86167,Jammu,Jammu and Kashmir,Jammu district,True
+kathua,Kathua,Jammu and Kashmir,32.36941,75.52539,Kathua,Jammu and Kashmir,Kathua District,True
+udhampur,Udhampur,Jammu and Kashmir,32.92431,75.13573,Udhampur,Jammu and Kashmir,Udhampur district,True
+east,East,Jammu and Kashmir,23.20083,93.08517,East Lungdar,Mizoram,Serchhip district,True
+mirpur,Mirpur,Jammu and Kashmir,32.37561,75.44007,Mīrpur Jaggu,Jammu and Kashmir,Kathua District,True
+north,North,Jammu and Kashmir,22.76602,88.36336,Bārākpur,West Bengal,North 24 Parganas,True
+north east,North East,Jammu and Kashmir,,,,,,False
+west,West,Jammu and Kashmir,16.71311,81.10437,Eluru,Andhra Pradesh,Eluru,True
+doda,Doda,Jammu and Kashmir,33.14916,75.54746,Doda,Jammu and Kashmir,Doda District,True
+muzaffarabad,Muzaffarabad,Jammu and Kashmir,30.12125,77.71395,Muzaffarābād,Uttar Pradesh,Sahāranpur District,True
+reasi,Reasi,Jammu and Kashmir,33.08115,74.83242,Reasi,Jammu and Kashmir,Reasi,True
+budgam,Budgam,Jammu and Kashmir,,,,,,False
+rajouri,Rajouri,Jammu and Kashmir,33.3779,74.3152,Rajouri Airport,Jammu and Kashmir,Rajauri,True
+kulgam,Kulgam,Jammu and Kashmir,33.64456,75.01923,Kulgam,Jammu and Kashmir,Kulgam,True
+shopian,Shopian,Jammu and Kashmir,33.71723,74.83413,Shopian,Jammu and Kashmir,Shopian,True
+poonch,Poonch,Jammu and Kashmir,33.77033,74.09254,Pūnch,Jammu and Kashmir,Poonch District,True
+pulwama,Pulwama,Jammu and Kashmir,33.87405,74.89955,Pulwama,Jammu and Kashmir,Pulwama,True
+srinagar,Srinagar,Jammu and Kashmir,34.08565,74.80555,Srinagar,Jammu and Kashmir,Srīnagar District,True
+kishtwar,Kishtwar,Jammu and Kashmir,33.31346,75.76726,Kishtwār,Jammu and Kashmir,Kishtwar,True
+anantnag,Anantnag,Jammu and Kashmir,33.73068,75.15418,Anantnag,Jammu and Kashmir,Anantnag,True
+ganderbal,Ganderbal,Jammu and Kashmir,34.22619,74.77478,Ganderbal,Jammu and Kashmir,Ganderbal District,True
+baramulla,Baramulla,Jammu and Kashmir,,,,,,False
+bandipora,Bandipora,Jammu and Kashmir,,,,,,False
+kupwara,Kupwara,Jammu and Kashmir,34.52856,74.26396,Kopawor,Jammu and Kashmir,Kupwara District,True
+south west,South West,Jammu and Kashmir,,,,,,False
+ramban,Ramban,Jammu and Kashmir,33.24278,75.23513,Rāmban,Jammu and Kashmir,Ramban District,True
+central,Central,Jammu and Kashmir,12.91552,77.65248,Central Government Quarters,Tamil Nadu,,True
+amritsar,Amritsar,Jammu and Kashmir,31.62234,74.87534,Amritsar,Punjab,Amritsar,True
+south,South,Jammu and Kashmir,18.80188,75.36371,Southada,Maharashtra,Beed District,True
+kapurthala,Kapurthala,Jammu and Kashmir,31.38011,75.38105,Kapurthala Town,Punjab,Kapurthala district,True
+pathankot,Pathankot,Jammu and Kashmir,32.27484,75.65287,Pathankot,Punjab,Pathankot,True
+ferozepur,Ferozepur,Jammu and Kashmir,30.92574,74.61311,Firozpur,Punjab,Firozpur,True
+mansa,Mansa,Jammu and Kashmir,32.70207,75.1471,Mānsar,Jammu and Kashmir,Udhampur district,True
+patiala,Patiala,Jammu and Kashmir,30.33625,76.3922,Patiāla,Punjab,Patiala district,True
+new new delhi,New New Delhi,Jammu and Kashmir,,,,,,False
+barnala,Barnala,Jammu and Kashmir,30.37451,75.5487,Barnāla,Punjab,Barnala,True
+sangrur,Sangrur,Jammu and Kashmir,30.24506,75.84488,Sangrur,Punjab,Sangrur District,True
+sri sri muktsar sahib sahib,Sri Sri Muktsar Sahib Sahib,Jammu and Kashmir,,,,,,False
+fatehgarh sahib,Fatehgarh Sahib,Jammu and Kashmir,,,,,,False
+faridkot,Faridkot,Jammu and Kashmir,30.67399,74.75579,Farīdkot,Punjab,Faridkot,True
+s a s nagar,S.A.S Nagar,Jammu and Kashmir,,,,,,False
+bathinda,Bathinda,Jammu and Kashmir,30.20747,74.93893,Bathinda,Punjab,Bathinda,True
+moga,Moga,Jammu and Kashmir,33.27981,75.23975,Moga,Jammu and Kashmir,Ramban District,True
+ludhiana,Ludhiana,Jammu and Kashmir,30.91204,75.85379,Ludhiana,Punjab,Ludhiana district,True
+shahdara,Shahdara,Jammu and Kashmir,34.11283,73.96285,Shāhdara,Jammu and Kashmir,Bāramūla District,True
+north west,North West,Jammu and Kashmir,,,,,,False
+gurdaspur,Gurdaspur,Jammu and Kashmir,32.03933,75.40318,Gurdaspur,Punjab,Gurdaspur district,True
+south east,South East,Jammu and Kashmir,,,,,,False
+jalandhar,Jalandhar,Jammu and Kashmir,31.32556,75.57917,Jalandhar,Punjab,Jalandhar district,True
+tarn taran,Tarn Taran,Jammu and Kashmir,31.45191,74.92777,Tarn Taran,Punjab,Tarn Taran,True
+rupnagar,Rupnagar,Jammu and Kashmir,30.21013,73.99427,Rūpnagar,Punjab,Fazilka,True
+shahid bhagat singh nagar,Shahid Bhagat Singh Nagar,Jammu and Kashmir,,,,,,False
+fazilka,Fazilka,Jammu and Kashmir,30.40207,74.02836,Fazilka,Punjab,Fazilka,True
+hoshiarpur,Hoshiarpur,Jammu and Kashmir,31.53723,75.91269,Hoshiārpur,Punjab,Hoshiarpur district,True
+lahul and spiti,Lahul And Spiti,Himachal Pradesh,,,,,,False
+chamba,Chamba,Himachal Pradesh,32.55531,76.12647,Chamba,Himachal Pradesh,Chamba,True
+kangra,Kangra,Himachal Pradesh,32.09135,76.26267,Kangra,Himachal Pradesh,Kāngra District,True
+kullu,Kullu,Himachal Pradesh,31.95835,77.10823,Kullu,Himachal Pradesh,Kullu,True
+mandi,Mandi,Himachal Pradesh,31.71194,76.93273,Mandi,Himachal Pradesh,Mandi,True
+kinnaur,Kinnaur,Himachal Pradesh,31.52105,78.3628,Kailāsh,Himachal Pradesh,Kinnaur district,True
+shimla,Shimla,Himachal Pradesh,31.10442,77.16662,Shimla,Himachal Pradesh,Shimla district,True
+solan,Solan,Himachal Pradesh,30.90908,77.10869,Solan,Himachal Pradesh,Solan,True
+sirmaur,Sirmaur,Himachal Pradesh,24.83648,81.36448,Sirmaur,Madhya Pradesh,Rewa,True
+bilaspur,Bilaspur,Himachal Pradesh,31.33027,76.75663,Bilaspur,Himachal Pradesh,Bilaspur District,True
+una,Una,Himachal Pradesh,31.46493,76.26914,Una,Himachal Pradesh,Una,True
+nalgonda,Nalgonda,Maharashtra,17.05439,79.26707,Nalgonda,Telangana,Nalgonda District,True
+nagarkurnool,Nagarkurnool,Maharashtra,,,,,,False
+mulugu,Mulugu,Maharashtra,18.191,79.943,Mulugu,Telangana,Mulugu,True
+medchal malkajgiri,Medchal Malkajgiri,Maharashtra,,,,,,False
+nizamabad,Nizamabad,Maharashtra,18.67154,78.0988,Nizāmābād,Telangana,Nizamabad District,True
+nirmal,Nirmal,Maharashtra,19.40043,72.76511,Nirmal,Maharashtra,Palghar,True
+medak,Medak,Maharashtra,18.04531,78.26078,Medak,Telangana,Medak District,True
+jogulamba gadwal,Jogulamba Gadwal,Maharashtra,,,,,,False
+mahabubnagar,Mahabubnagar,Maharashtra,,,,,,False
+mahabubabad,Mahabubabad,Maharashtra,,,,,,False
+kumuram bheem asifabad,Kumuram Bheem Asifabad,Maharashtra,,,,,,False
+khammam,Khammam,Maharashtra,17.24767,80.14368,Khammam,Telangana,Khammam district,True
+karimnagar,Karimnagar,Maharashtra,18.43915,79.12856,Karīmnagar,Telangana,Karīmngar District,True
+kamareddy,Kamareddy,Maharashtra,,,,,,False
+peddapalli,Peddapalli,Maharashtra,18.61357,79.37442,Peddapalli,Telangana,Peddapalli,True
+mancherial,Mancherial,Maharashtra,18.87074,79.42863,Mancherial,Telangana,Mancherial,True
+rajanna sircilla,Rajanna Sircilla,Maharashtra,,,,,,False
+jayashankar bhupalapally,Jayashankar Bhupalapally,Maharashtra,,,,,,False
+sangareddy,Sangareddy,Maharashtra,,,,,,False
+jangoan,Jangoan,Maharashtra,,,,,,False
+narayanpet,Narayanpet,Maharashtra,16.74799,77.4954,Nārāyanpet,Telangana,Narayanpet,True
+bhadradri bhadradri kothagudem bhadradri kothagudem,Bhadradri Bhadradri Kothagudem Bhadradri Kothagudem,Maharashtra,,,,,,False
+yadadri yadadri bhuvanagiri yadadri bhuvanagiri,Yadadri Yadadri Bhuvanagiri Yadadri Bhuvanagiri,Maharashtra,,,,,,False
+warangal,Warangal,Maharashtra,18.0,79.58333,Warangal,Telangana,Hanamkonda,True
+ranga reddy,Ranga Reddy,Maharashtra,,,,,,False
+wanaparthy,Wanaparthy,Maharashtra,16.36738,78.06889,Wanparti,Telangana,Wanaparthy,True
+vikarabad,Vikarabad,Maharashtra,17.3381,77.90441,Vikārābād,Telangana,Vikarabad,True
+suryapet,Suryapet,Maharashtra,17.14054,79.62045,Suriāpet,Telangana,Suryapet,True
+siddipet,Siddipet,Maharashtra,18.10483,78.84858,Siddipet,Telangana,Siddipet,True
+jagitial,Jagitial,Maharashtra,18.79972,78.92829,Jagitial,Telangana,Jagitial,True
+solapur,Solapur,Maharashtra,17.67152,75.91044,Solapur,Maharashtra,Sholāpur District,True
+adilabad,Adilabad,Maharashtra,19.67203,78.5359,Adilabad,Telangana,Adilabad District,True
+nanded,Nanded,Maharashtra,19.16023,77.31497,Nanded,Maharashtra,Nanded District,True
+hingoli,Hingoli,Maharashtra,19.71464,77.14238,Hingoli,Maharashtra,Hingoli District,True
+ahmednagar,Ahmednagar,Maharashtra,23.59893,72.96602,Himatnagar,Gujarat,Sabar Kantha,True
+jalna,Jalna,Maharashtra,19.84102,75.88636,Jālna,Maharashtra,Jalna District,True
+yavatmal,Yavatmal,Maharashtra,20.39324,78.13201,Yavatmal,Maharashtra,Yavatmal District,True
+chandrapur,Chandrapur,Maharashtra,19.95076,79.29523,Chandrapur,Maharashtra,Chandrapur,True
+washim,Washim,Maharashtra,20.11128,77.133,Wāshīm,Maharashtra,Washim,True
+gadchiroli,Gadchiroli,Maharashtra,20.18061,80.00522,Garhchiroli,Maharashtra,Gadchiroli,True
+nashik,Nashik,Maharashtra,19.99727,73.79096,Nashik,Maharashtra,Nashik,True
+akola,Akola,Maharashtra,20.70957,76.9981,Akola,Maharashtra,Akola district,True
+buldhana,Buldhana,Maharashtra,,,,,,False
+wardha,Wardha,Maharashtra,20.73933,78.59784,Wardha,Maharashtra,Wardha district,True
+jalgaon,Jalgaon,Maharashtra,21.00292,75.56602,Jalgaon,Maharashtra,Jalgaon,True
+bhandara,Bhandara,Maharashtra,21.16817,79.64885,Bhandāra,Maharashtra,Bhandara district,True
+gondia,Gondia,Maharashtra,21.46026,80.19205,Gondiā,Maharashtra,Gondia,True
+parbhani,Parbhani,Maharashtra,19.26855,76.77081,Parbhani,Maharashtra,Parbhani District,True
+pune,Pune,Maharashtra,18.51957,73.85535,Pune,Maharashtra,Pune,True
+beed,Beed,Maharashtra,18.98921,75.75634,Beed,Maharashtra,Beed District,True
+mumbai,Mumbai,Maharashtra,19.07283,72.88261,Mumbai,Maharashtra,,True
+mumbai suburban,Mumbai Suburban,Maharashtra,,,,,,False
+raigarh,Raigarh,Maharashtra,21.89764,83.3966,Raigarh,Chhattisgarh,Raigarh district,True
+dhule,Dhule,Maharashtra,20.9013,74.77737,Dhule,Maharashtra,Dhule district,True
+amravati,Amravati,Maharashtra,20.93333,77.75,Amravati,Maharashtra,Amravati,True
+nandurbar,Nandurbar,Maharashtra,21.36671,74.24051,Nandurbar,Maharashtra,Nandurbar,True
+palghar,Palghar,Maharashtra,19.69693,72.76543,Pālghar,Maharashtra,Palghar,True
+sindhudurg,Sindhudurg,Maharashtra,15.99894,73.5347,Sindhudurg Airport,Maharashtra,Sindhudurg District,True
+kolhapur,Kolhapur,Maharashtra,16.69563,74.23167,Kolhāpur,Maharashtra,Kolhapur,True
+sangli,Sangli,Maharashtra,16.85438,74.56417,Sangli,Maharashtra,Sangli,True
+ratnagiri,Ratnagiri,Maharashtra,16.99154,73.31022,Ratnagiri,Maharashtra,Ratnagiri District,True
+satara,Satara,Maharashtra,17.68589,73.99333,Satara,Maharashtra,Satara,True
+dharashiv,Dharashiv,Maharashtra,18.18158,76.03889,Dharashiv,Maharashtra,Osmanabad District,True
+latur,Latur,Maharashtra,18.39721,76.56784,Latur,Maharashtra,Latur District,True
+thane,Thane,Maharashtra,19.19704,72.96355,Thane,Maharashtra,Thane District,True
+hyderabad,Hyderabad,Maharashtra,17.38405,78.45636,Hyderabad,Telangana,Hyderabad District,True
+chennai,Chennai,Tamil Nadu,13.08784,80.27847,Chennai,Tamil Nadu,Chennai district,True
+suburbans,Suburbans,Madras,,,,,,False
+udalguri,Udalguri,Assam,26.75367,92.10215,Udalguri,Assam,Udalguri,True
+darrang,Darrang,Assam,26.63333,92.8,Tezpur,Assam,Sonitpur,True
+sonitpur,Sonitpur,Assam,26.78196,92.44907,Sonitpur,Assam,Sonitpur,True
+biswanath,Biswanath,Assam,26.72577,93.14659,Biswanath Chariali,Assam,Biswanath,True
+entire village,Entire village,Uttarakhand,,,,,,False
+chittoor,Chittoor,Andhra Pradesh,13.21055,79.0956,Chittoor,Andhra Pradesh,Chittoor,True
+y s r,Y.S.R.,Andhra Pradesh,,,,,,False
+west godavari,West Godavari,Andhra Pradesh,16.71311,81.10437,Eluru,Andhra Pradesh,Eluru,True
+sri potti sriramulu nellore,Sri Potti Sriramulu Nellore,Andhra Pradesh,,,,,,False
+ananthapuramuamu,Ananthapuramuamu,Andhra Pradesh,,,,,,False
+kurnool,Kurnool,Andhra Pradesh,15.82887,78.03602,Kurnool,Andhra Pradesh,Kurnool district,True
+east godavari,East Godavari,Andhra Pradesh,,,,,,False
+guntur,Guntur,Andhra Pradesh,16.29974,80.45729,Guntur,Andhra Pradesh,Guntūr District,True
+krishna,Krishna,Andhra Pradesh,17.60293,82.4215,Krishnaram,Andhra Pradesh,Alluri Sitharama Raju,True
+visakhapatnam,Visakhapatnam,Andhra Pradesh,17.68009,83.20161,Visakhapatnam,Andhra Pradesh,Visakhapatanam,True
+vizianagaram,Vizianagaram,Andhra Pradesh,18.11692,83.41148,Vizianagaram,Andhra Pradesh,Vizianagaram District,True
+srikakulam,Srikakulam,Andhra Pradesh,18.2989,83.89751,Srikakulam,Andhra Pradesh,Srikakulam district,True
+prakasam,Prakasam,Andhra Pradesh,,,,,,False
+dakshin dinajpur,Dakshin Dinajpur,West Bengal,,,,,,False
+kalimpong,Kalimpong,West Bengal,27.03461,88.63084,Kalimpong,West Bengal,Kalimpong,True
+uttar kashi dinajpur,Uttar Kashi Dinajpur,West Bengal,,,,,,False
+north westduar,North westduar,West Bengal,,,,,,False
+malda,Malda,West Bengal,25.00447,88.14573,Malda,West Bengal,Malda,True
+south 24 parganas,South 24 Parganas,Uttar Pradesh,,,,,,False
+maldah,Maldah,Uttar Pradesh,27.45907,82.68457,Maldāh,Uttar Pradesh,Balrampur,True
+murshidabad,Murshidabad,Uttar Pradesh,26.07467,81.06312,Murshidābād,Uttar Pradesh,Rae Bareli,True
+birbhum,Birbhum,Uttar Pradesh,,,,,,False
+nadia,Nadia,Uttar Pradesh,26.96423,78.74494,Nādia,Uttar Pradesh,Firozabad,True
+purba purba bardhaman,Purba Purba Bardhaman,Uttar Pradesh,,,,,,False
+purulia,Purulia,Uttar Pradesh,23.33062,86.36303,Puruliya,West Bengal,Purulia,True
+bankura,Bankura,Uttar Pradesh,23.23241,87.0716,Bānkura,West Bengal,Bānkura District,True
+north 24 parganas,North 24 Parganas,Uttar Pradesh,,,,,,False
+tinsukia,Tinsukia,Uttar Pradesh,27.48905,95.35992,Tinsukia,Assam,Tinsukia,True
+dhemaji,Dhemaji,Uttar Pradesh,27.48333,94.58333,Dhemāji,Assam,Dhemaji,True
+dibrugarh,Dibrugarh,Uttar Pradesh,27.47989,94.90837,Dibrugarh,Assam,Dibrugarh district,True
+sivasagar,Sivasagar,Uttar Pradesh,,,,,,False
+jorhat,Jorhat,Uttar Pradesh,26.75751,94.20306,Jorhat,Assam,Jorhat district,True
+golaghat,Golaghat,Uttar Pradesh,26.51167,93.95951,Golāghāt,Assam,Golaghat,True
+chirang,Chirang,Uttar Pradesh,29.87368,79.81931,Chirang,Uttarakhand,Bageshwar,True
+baksa,Baksa,Uttar Pradesh,28.7643,78.00321,Baksar,Uttar Pradesh,Hapur,True
+nagaon,Nagaon,Uttar Pradesh,24.7321,83.2288,Nāgaon,Uttar Pradesh,Sonbhadra,True
+kokrajhar,Kokrajhar,Uttar Pradesh,26.40107,90.27286,Kokrajhar,Assam,Kokrajhar,True
+barpeta,Barpeta,Uttar Pradesh,26.32293,91.00632,Barpeta,Assam,Barpeta,True
+nalbari,Nalbari,Uttar Pradesh,26.43937,91.44041,Nalbāri,Assam,Nalbari,True
+lakhimpur,Lakhimpur,Uttar Pradesh,27.94822,80.77935,Lakhīmpur,Uttar Pradesh,Kheri,True
+marigaon,Marigaon,Uttar Pradesh,21.63523,85.57643,Mārigāon,Odisha,Kendujhar,True
+kamrup,Kamrup,Uttar Pradesh,,,,,,False
+bongaigaon,Bongaigaon,Uttar Pradesh,26.47703,90.55815,Bongaigaon,Assam,Bongaigaon,True
+dhubri,Dhubri,Uttar Pradesh,26.01856,89.98564,Dhubri,Assam,Dhubri,True
+kamrup metro,Kamrup Metro,Uttar Pradesh,,,,,,False
+goalpara,Goalpara,Uttar Pradesh,26.17668,90.62634,Goālpāra,Assam,Goālpāra District,True
+dima hasao,Dima Hasao,Uttar Pradesh,,,,,,False
+cachar,Cachar,Uttar Pradesh,,,,,,False
+karimganj,Karimganj,Uttar Pradesh,27.31018,79.03611,Karīmganj,Uttar Pradesh,Mainpuri district,True
+hailakandi,Hailakandi,Uttar Pradesh,24.68394,92.56097,Hailākāndi,Assam,Hailakandi,True
+charaideo,Charaideo,Uttar Pradesh,,,,,,False
+majuli,Majuli,Uttar Pradesh,26.95,94.16667,Mājuli,Assam,Majuli,True
+hojai,Hojai,Uttar Pradesh,26.00281,92.85605,Hojāi,Assam,Hojai,True
+south salmara mancachar,South Salmara Mancachar,Uttar Pradesh,,,,,,False
+karbi anglong,Karbi Anglong,Uttar Pradesh,,,,,,False
+west karbi anglong,West Karbi Anglong,Uttar Pradesh,,,,,,False
+kashmir valley,Kashmir valley,Jammu and Kashmir,,,,,,False
+few districts,Few districts,Maharashtra,,,,,,False
+chota udaipur,Chota Udaipur,Rajasthan,22.30401,74.0158,Chhota Udepur,Gujarat,Chhotaudepur,True
+narmada,Narmada,Rajasthan,22.74747,77.72736,Narmadapuram,Madhya Pradesh,Hoshangābād District,True
+tapi,Tapi,Rajasthan,23.83685,85.49454,Taping,Jharkhand,Ramgarh District,True
+arvalli,Arvalli,Rajasthan,,,,,,False
+botad,Botad,Rajasthan,22.16917,71.66671,Botad,Gujarat,Botad,True
+mahisagar,Mahisagar,Rajasthan,,,,,,False
+gir somnath,Gir Somnath,Rajasthan,,,,,,False
+sabar kantha,Sabar Kantha,Rajasthan,,,,,,False
+kachchh,Kachchh,Rajasthan,26.05654,76.61051,Kāchchhra,Rajasthan,Sawai Madhopur,True
+surendranagar,Surendranagar,Rajasthan,22.72706,71.64856,Surendranagar,Gujarat,Surendranagar,True
+rajkot,Rajkot,Rajasthan,25.73681,75.58779,Rajkot,Rajasthan,Tonk,True
+kheda,Kheda,Rajasthan,26.06365,74.27955,Khedarla,Rajasthan,Ajmer district,True
+anand,Anand,Rajasthan,24.44813,76.35522,Ānanda,Rajasthan,Jhalawar,True
+bhavnagar,Bhavnagar,Rajasthan,21.76287,72.15331,Bhavnagar,Gujarat,Bhavnagar,True
+jamnagar,Jamnagar,Rajasthan,22.47292,70.06673,Jamnagar,Gujarat,Jamnagar,True
+devbhumi dwarka dwarka,Devbhumi Dwarka Dwarka,Rajasthan,,,,,,False
+morbi,Morbi,Rajasthan,32.33604,76.06014,Morbi,Himachal Pradesh,Chamba,True
+navsari,Navsari,Rajasthan,20.94237,72.92467,Navsari,Gujarat,Navsari,True
+junagadh,Junagadh,Rajasthan,21.51966,70.45981,Jūnāgadh,Gujarat,Jūnāgadh District,True
+porbandar,Porbandar,Rajasthan,21.64219,69.60929,Porbandar,Gujarat,Porbandar,True
+bharuch,Bharuch,Rajasthan,21.69482,72.9805,Bharūch,Gujarat,Bharūch District,True
+banas kantha,Banas Kantha,Rajasthan,,,,,,False
+dahod,Dahod,Rajasthan,23.03621,77.48981,Dāhod,Madhya Pradesh,Raisen,True
+vadodara,Vadodara,Rajasthan,22.29941,73.20812,Vadodara,Gujarat,Vadodara,True
+valsad,Valsad,Rajasthan,20.61013,72.93428,Valsād,Gujarat,Bulsar District,True
+amreli,Amreli,Rajasthan,21.59983,71.21169,Amreli,Gujarat,Amreli district,True
+dangs,Dangs,Rajasthan,26.31191,84.60651,Dangsi,Bihar,Gopalganj,True
+patan,Patan,Rajasthan,24.54205,76.17242,Jhālrapātan,Rajasthan,Jhalawar,True
+mahesana,Mahesana,Rajasthan,23.59864,72.38472,Mahesāna,Gujarat,Mehsāna District,True
+gandhinagar,Gandhinagar,Rajasthan,29.2282,74.58248,Gāndhīnagar,Rajasthan,Hanumangarh,True
+ahmedabad,Ahmedabad,Rajasthan,23.02579,72.58727,Ahmedabad,Gujarat,Ahmadābād District,True
+panch mahals,Panch Mahals,Rajasthan,,,,,,False
+kra daadi,Kra Daadi,Jammu and Kashmir,,,,,,False
+kurung kumey,Kurung Kumey,Jammu and Kashmir,,,,,,False
+lower lower subansiri,Lower Lower Subansiri,Jammu and Kashmir,,,,,,False
+east kameng,East Kameng,Jammu and Kashmir,,,,,,False
+west kameng,West Kameng,Jammu and Kashmir,,,,,,False
+namsai,Namsai,Jammu and Kashmir,27.66904,95.86395,Namsai,,Namsai,True
+longding,Longding,Jammu and Kashmir,26.88412,95.31946,Longding,,Longding,True
+upper siang,Upper Siang,Jammu and Kashmir,,,,,,False
+lower siang,Lower Siang,Jammu and Kashmir,,,,,,False
+dibang valley,Dibang Valley,Jammu and Kashmir,,,,,,False
+lower dibang valley,Lower Dibang Valley,Jammu and Kashmir,,,,,,False
+siang,Siang,Jammu and Kashmir,22.59347,83.05274,Siang,Chhattisgarh,Korba,True
+shi yomi,Shi Yomi,Jammu and Kashmir,28.52999,94.37322,Shi Yomi,,Shi Yomi,True
+pakke kessang,Pakke Kessang,Jammu and Kashmir,,,,,,False
+west siang,West Siang,Jammu and Kashmir,,,,,,False
+leparada,Leparada,Jammu and Kashmir,,,,,,False
+kamle,Kamle,Jammu and Kashmir,23.54962,84.73859,Kamle,Jharkhand,Lohardaga,True
+lohit,Lohit,Jammu and Kashmir,17.83722,79.65628,Lohita,Telangana,Warangal Rural,True
+east siang,East Siang,Jammu and Kashmir,,,,,,False
+papum pare,Papum Pare,Jammu and Kashmir,,,,,,False
+upper lower subansiri,Upper Lower Subansiri,Jammu and Kashmir,,,,,,False
+anjaw,Anjaw,Jammu and Kashmir,,,,,,False
+changlang,Changlang,Jammu and Kashmir,27.13177,95.73486,Changlang,,Changlang,True
+tawang,Tawang,Jammu and Kashmir,27.57417,91.795,Tawang Town,,Tawang,True
+tirap,Tirap,Jammu and Kashmir,27.16414,95.78127,Tirāp,,Changlang,True
+ghazipur,Ghazipur,Uttar Pradesh,25.58333,83.58526,Ghazīpur,Uttar Pradesh,Ghazipur,True
+mumbai colaba,Mumbai (Colaba),Maharashtra,,,,,,False
+north bengal,North Bengal,West Bengal,,,,,,False
+bijapur,Bijapur,Karnataka,16.82442,75.71537,Bijapur,Karnataka,Bijāpur District,True
+silchar,Silchar,Assam,24.82733,92.79787,Silchar,Assam,Cachar,True
+ramgarh,Ramgarh,Rajasthan,28.17096,74.97973,Rāmgarh,Rajasthan,Sikar,True
+ghat area,Ghat area,Maharashtra,,,,,,False
+kolkata,Kolkata,West Bengal,22.56263,88.36304,Kolkata,West Bengal,Kolkata,True
+purba purba medinipur,Purba Purba Medinipur,West Bengal,,,,,,False
+khurja,Khurja,Uttar Pradesh,28.25382,77.85535,Khurja,Uttar Pradesh,Bulandshahr district,True
+paschim purba medinipur,Paschim Purba Medinipur,West Bengal,,,,,,False
+paschim purba bardhaman,Paschim Purba Bardhaman,West Bengal,,,,,,False
+thanjavur,Thanjavur,Tamil Nadu,10.78523,79.13909,Thanjavur,Tamil Nadu,Thanjavur,True
+chengalpattu,Chengalpattu,Tamil Nadu,12.69184,79.97661,Chengalpattu,Tamil Nadu,Chengalpattu district,True
+north tripura,North Tripura,Assam,,,,,,False
+bhadradri bhadradri kothagudem kothagudem,Bhadradri Bhadradri Kothagudem kothagudem,Telangana,,,,,,False
+dadra and nagar haveli,Dadra And Nagar Haveli,Dadra and Nagar Haveli,32.4983,74.68715,Dadra and Nagar Haveli,Jammu and Kashmir,Jammu district,True
+south gujarat,South Gujarat,Maharashtra,,,,,,False
+jhelum,Jhelum,Jammu and Kashmir,,,,,,False
+purba bardhaman,Purba bardhaman,West Bengal,,,,,,False
+hooghly,Hooghly,West Bengal,22.90877,88.39674,Hugli,West Bengal,Hooghly,True
+the nilgiris,The Nilgiris,Tamil Nadu,,,,,,False
+coimbatore,Coimbatore,Tamil Nadu,11.00555,76.96612,Coimbatore,Tamil Nadu,Coimbatore district,True
+almora,Almora,Uttar Pradesh,29.59713,79.65911,Almora,Uttarakhand,Almora district,True
+ramagiri,Ramagiri,Maharashtra,19.08683,84.29084,Rāmagiri,Odisha,Gajapati,True
+mangalore,Mangalore,Karnataka,12.84654,74.84056,Mangalore Tota,Karnataka,Dakshina Kannada District,True
+mudigere,Mudigere,Karnataka,13.59503,77.45105,Mudigere,Karnataka,Chikballapur,True
+raipur,Raipur,Madhya Pradesh,24.57354,81.4411,Raipur,Madhya Pradesh,Rewa,True
+tripura,Tripura,Tripura,13.08879,75.56248,Tripura,Karnataka,Chikkamagaluru,True
+tehri garhwal,Tehri Garhwal,Uttar Pradesh,,,,,,False
+uttar kashi kashi,Uttar Kashi Kashi,Uttar Pradesh,,,,,,False
+garhwal,Garhwal,Uttar Pradesh,29.62663,78.32098,Garhwāla,Uttar Pradesh,Bijnor district,True
+chumanung,Chumanung,Jammu and Kashmir,,,,,,False
+dehradun,Dehradun,Uttar Pradesh,30.32443,78.03392,Dehradun,Uttarakhand,Dehradun,True
+greater kolkata area,Greater Kolkata area,West Bengal,,,,,,False
+salem,Salem,Tamil Nadu,11.65376,78.15538,Salem,Tamil Nadu,Salem district,True
+erode,Erode,Tamil Nadu,11.3428,77.72741,Erode,Tamil Nadu,Erode,True
+ramanathapuram,Ramanathapuram,Tamil Nadu,9.37158,78.83077,Ramanathapuram,Tamil Nadu,Ramanathapuram,True
+chamoli,Chamoli,Uttarakhand,30.40271,79.33303,Chamoli,Uttarakhand,Chamoli district,True
+hilly areas,Hilly areas,Jammu and Kashmir,,,,,,False
+siliguri,Siliguri,West Bengal,26.71004,88.42851,Siliguri,West Bengal,Darjeeling,True
+howrah,Howrah,Uttar Pradesh,22.57688,88.31857,Howrah,West Bengal,Howrah,True
+rugi,Rugi,Karnataka,16.95456,76.02676,Rūgi,Karnataka,Bijāpur District,True
+tirunelveli,Tirunelveli,Tamil Nadu,8.72742,77.6838,Tirunelveli,Tamil Nadu,Tirunelveli,True
+cuddalore,Cuddalore,Tamil Nadu,11.75617,79.76693,Cuddalore,Tamil Nadu,Cuddalore,True
+tiruchirappalli,Tiruchirappalli,Tamil Nadu,10.8155,78.69651,Tiruchirappalli,Tamil Nadu,Trichinopoly District,True
+madurai,Madurai,Tamil Nadu,9.919,78.11953,Madurai,Tamil Nadu,Madurai,True
+pudukkottai,Pudukkottai,Tamil Nadu,10.38128,78.82141,Pudukkottai,Tamil Nadu,Pudukkottai,True
+south goa,South Goa,Goa,,,,,,False
+north goa,North Goa,Goa,,,,,,False
+chandigarh,Chandigarh,Chandigarh,30.73629,76.7884,Chandigarh,Chandigarh,Chandigarh District,True
+nainital,Nainital,Uttar Pradesh,29.39743,79.44686,Nainital,Uttarakhand,Nainital,True
+pithoragarh,Pithoragarh,Uttar Pradesh,29.58349,80.20947,Pithorāgarh,Uttarakhand,Pithoragarh,True
+santal pargan,Santal Pargan,Bihar,,,,,,False
+namchi,Namchi,Sikkim,27.16494,88.3638,Namchi,Sikkim,South District,True
+gyalshing,Gyalshing,Sikkim,27.28952,88.25764,Gyalshing,Sikkim,West Sikkim,True
+mangan,Mangan,Sikkim,27.50965,88.52206,Mangan,Sikkim,North District,True
+imphal west,Imphal West,Manipur,,,,,,False
+imphal east,Imphal East,Manipur,,,,,,False
+new delhi,New Delhi,Delhi,28.62137,77.2148,New Delhi,National Capital Territory of Delhi,New Delhi,True
+kohima,Kohima,Nagaland,25.67467,94.11099,Kohima,Nagaland,Kohima,True
+vellore,Vellore,Tamil Nadu,12.9184,79.13255,Vellore,Tamil Nadu,Vellore district,True
+manali,Manali,Himachal Pradesh,32.2574,77.17481,Manali,Himachal Pradesh,Kullu,True
+akharpur,Akharpur,Uttar Pradesh,,,,,,False
+goa,Goa,Daman and Diu,24.60243,72.72583,Goa,Rajasthan,Sirohi,True
+viluppuram,Viluppuram,Tamil Nadu,,,,,,False
+unakoti,Unakoti,Tripura,,,,,,False
+south tripura,South Tripura,Tripura,,,,,,False
+west tripura,West Tripura,Tripura,,,,,,False
+dhalai,Dhalai,Tripura,24.60117,92.84785,Dhalai,Assam,Cachar,True
+sepahijala,Sepahijala,Tripura,,,,,,False
+gomati,Gomati,Tripura,,,,,,False
+khowai,Khowai,Tripura,24.07964,91.59972,Khowai,Tripura,Khowai,True
+pakur,Pakur,Bihar,24.63925,87.84239,Pakur,Jharkhand,Pakur,True
+sahebganj,Sahebganj,Bihar,26.30831,84.92695,Sāhibganj,Bihar,Muzaffarpur district,True
+jamtara,Jamtara,Bihar,23.963,86.80285,Jāmtāra,Jharkhand,Jamtara,True
+dumka,Dumka,Bihar,24.26778,87.24855,Dumka,Jharkhand,Dumka District,True
+deoghar,Deoghar,Bihar,26.25333,84.93294,Deoghara,Bihar,Muzaffarpur district,True
+godda,Godda,Bihar,24.827,87.2125,Godda,Jharkhand,Godda,True
+bastar,Bastar,Madhya Pradesh,23.23142,80.60603,Bastara,Madhya Pradesh,Dindori,True
+bhubaneshwar,Bhubaneshwar,Odisha,,,,,,False
+raigad,Raigad,Maharashtra,,,,,,False
+kargil,Kargil,Jammu and Kashmir,34.55765,76.12622,Kargil,Ladakh,Kargil,True
+palamu,Palamu,Bihar,22.8917,82.32698,Palāmu,Chhattisgarh,Korba,True
+ukhrul,Ukhrul,Manipur,25.11957,94.36417,Ukhrul,Manipur,Ukhrul,True
+kamjong,Kamjong,Manipur,24.85846,94.51549,Kamjong,Manipur,Kamjong,True
+senapati,Senapati,Manipur,10.94872,79.07891,Senāpati,Tamil Nadu,Ariyalur District,True
+noney,Noney,Manipur,,,,,,False
+tamenglong,Tamenglong,Manipur,25.0164,93.48545,Tamenglong,Manipur,Tamenglong,True
+kakching,Kakching,Manipur,24.4982,93.98126,Kakching,Manipur,Kakching,True
+bishnupur,Bishnupur,Manipur,24.62845,93.76179,Bishnupur,Manipur,Bishnupur,True
+chandel,Chandel,Manipur,24.32987,94.00379,Chandel,Manipur,Chandel,True
+churachandpur,Churachandpur,Manipur,24.33353,93.66999,Churāchāndpur,Manipur,Churachandpur,True
+jiribam,Jiribam,Manipur,24.80427,93.12148,Jiribam,Manipur,Jiribam,True
+pherzawl,Pherzawl,Manipur,24.26227,93.18873,Pherzawl,Manipur,Pherzawl,True
+thoubal,Thoubal,Manipur,24.63881,93.99639,Thoubāl,Manipur,Thoubal,True
+tengnoupal,Tengnoupal,Manipur,24.3855,94.1472,Tengnoupal,Manipur,Tengnoupal,True
+kangpokpi,Kangpokpi,Manipur,25.15273,93.97167,Kāngpokpi,Manipur,Kangpokpi,True
+ranchi,Ranchi,Bihar,23.34316,85.3094,Ranchi,Jharkhand,Rānchī District,True
+east khasi hills,East Khasi Hills,Meghalaya,,,,,,False
+south garo hills,South Garo Hills,Meghalaya,,,,,,False
+east east jaintia hills,East East Jaintia Hills,Meghalaya,,,,,,False
+ri bhoi,Ri Bhoi,Meghalaya,,,,,,False
+west garo hills,West Garo Hills,Meghalaya,,,,,,False
+east garo hills,East Garo Hills,Meghalaya,,,,,,False
+west east jaintia hills,West East Jaintia Hills,Meghalaya,,,,,,False
+south west khasi hills,South West Khasi Hills,Meghalaya,,,,,,False
+south west garo hills,South West Garo Hills,Meghalaya,,,,,,False
+west khasi hills,West Khasi Hills,Meghalaya,,,,,,False
+north garo hills,North Garo Hills,Meghalaya,,,,,,False
+durg,Durg,Madhya Pradesh,24.78489,78.91872,Durgāpur,Madhya Pradesh,Tikamgarh,True
+kanpur nagar,Kanpur nagar,Uttar Pradesh,,,,,,False
+tiruppur,Tiruppur,Tamil Nadu,11.11541,77.35456,Tirupur,Tamil Nadu,Tiruppur,True
+ariyalur,Ariyalur,Tamil Nadu,11.13849,79.07556,Ariyalūr,Tamil Nadu,Ariyalur District,True
+perambalur,Perambalur,Tamil Nadu,11.23333,78.88333,Perambalur,Tamil Nadu,Perambalur,True
+namakkal,Namakkal,Tamil Nadu,11.22126,78.16524,Namakkal,Tamil Nadu,Namakkal,True
+krishnagiri,Krishnagiri,Tamil Nadu,12.51921,78.21382,Krishnagiri,Tamil Nadu,Krishnagiri,True
+dharmapuri,Dharmapuri,Tamil Nadu,12.1277,78.15794,Dharmapuri,Tamil Nadu,Dharmapuri,True
+tiruvannamalai,Tiruvannamalai,Tamil Nadu,12.22662,79.07461,Tiruvannamalai,Tamil Nadu,Tiruvannamalai,True
+thiruvallur,Thiruvallur,Tamil Nadu,,,,,,False
+karur,Karur,Tamil Nadu,10.95771,78.08095,Karur,Tamil Nadu,Karur,True
+pondicherry,Pondicherry,Puducherry,11.9687,79.8101,Pondicherry Airport,Tamil Nadu,,True
+thiruvarur,Thiruvarur,Tamil Nadu,10.77269,79.6368,Thiruvarur,Tamil Nadu,Thiruvarur District,True
+kancheepuram,Kancheepuram,Tamil Nadu,,,,,,False
+tirupathur,Tirupathur,Tamil Nadu,,,,,,False
+ranipet,Ranipet,Tamil Nadu,12.92471,79.33331,Ranipet,Tamil Nadu,Ranipet district,True
+tenkasi,Tenkasi,Tamil Nadu,8.96003,77.31525,Thenkasi,Tamil Nadu,Tenkasi district,True
+dindigul,Dindigul,Tamil Nadu,10.36896,77.98036,Dindigul,Tamil Nadu,Dindigul,True
+nagapattinam,Nagapattinam,Tamil Nadu,10.76377,79.84313,Nagapattinam,Tamil Nadu,Nagapattinam,True
+kallakurichi,Kallakurichi,Tamil Nadu,11.73379,78.95925,Kallakurichi,Tamil Nadu,Kallakurichi district,True
+kanniyakumariumari,Kanniyakumariumari,Tamil Nadu,,,,,,False
+thoothukkudi,Thoothukkudi,Tamil Nadu,,,,,,False
+virudhunagar,Virudhunagar,Tamil Nadu,,,,,,False
+theni,Theni,Tamil Nadu,10.01115,77.47772,Theni,Tamil Nadu,Theni District,True
+sivaganga,Sivaganga,Tamil Nadu,9.84701,78.48358,Sivaganga,Tamil Nadu,Sivaganga,True
+marathwada,Marathwada,Maharashtra,,,,,,False
+surguja,Surguja,Chhattisgarh,22.41798,82.46992,Surgujāpāra,Chhattisgarh,Korba,True
+leh ladakh,Leh ladakh,Jammu and Kashmir,,,,,,False
+yanam,Yanam,Puducherry,16.73308,82.21364,Yanam,Andhra Pradesh,East Godavari,True
+mahe,Mahe,Puducherry,11.70172,75.53474,Mahē,Kerala,,True
+karaikal,Karaikal,Puducherry,10.91667,79.83333,Kāraikāl,Puducherry,Karaikal,True
+sivasagar amd sonitpur,Sivasagar amd Sonitpur,Assam,,,,,,False
+west singhbhum,West Singhbhum,Bihar,,,,,,False
+29 districts affected,29 districts affected,Uttar Pradesh,,,,,,False
+south kashmir,South Kashmir,Jammu and Kashmir,,,,,,False
+kashmir,Kashmir,Jammu and Kashmir,31.33637,77.17505,Kashmīr,Himachal Pradesh,Mandi,True
+purba medinipur,Purba Medinipur,West Bengal,,,,,,False
+rajnandgaon,Rajnandgaon,Madhya Pradesh,,,,,,False
+south assam,South Assam,Assam,,,,,,False
+itanagar,Itanagar,Arunachal Pradesh,27.08694,93.60987,Itanagar,,Papum Pare District,True
+kolasib,Kolasib,Mizoram,24.22388,92.67869,Kolasib,Mizoram,Kolasib District,True
+mamit,Mamit,Mizoram,23.92703,92.48968,Mamit,Mizoram,Mamit district,True
+champhai,Champhai,Mizoram,,,,,,False
+aizawl,Aizawl,Mizoram,23.72894,92.71791,Aizawl,Mizoram,Aizawl district,True
+serchhip,Serchhip,Mizoram,23.29312,92.84679,Serchhīp,Mizoram,Serchhip district,True
+lawngtlai,Lawngtlai,Mizoram,22.53254,92.89902,Lawngtlai,Mizoram,Lawngtlai,True
+lunglei,Lunglei,Mizoram,22.89247,92.74218,Lunglei,Mizoram,Lunglei district,True
+siaha,Siaha,Mizoram,,,,,,False
+mancachar,Mancachar,Assam,,,,,,False
+3 out of 8 districts,3 out of 8 districts,Manipur,,,,,,False
+haridwar,Haridwar,Uttar Pradesh,29.94791,78.16025,Haridwar,Uttarakhand,Haridwar,True
+phek,Phek,Nagaland,25.66667,94.5,Phek,Manipur,,True
+dimapur,Dimapur,Nagaland,25.91174,93.7217,Dimāpur,Nagaland,Dimapur,True
+longleng,Longleng,Nagaland,26.48989,94.81772,Longleng,Nagaland,Longleng,True
+mokokchung,Mokokchung,Nagaland,26.3248,94.51834,Mokokchūng,Nagaland,Mokokchung District,True
+tuensang,Tuensang,Nagaland,26.26704,94.82415,Tuensang,Nagaland,Tuensang,True
+mon,Mon,Nagaland,26.73583,95.05841,Mon,Nagaland,Mon,True
+peren,Peren,Nagaland,25.56743,93.76056,Lakema,Nagaland,Peren District,True
+wokha,Wokha,Nagaland,26.09717,94.25817,Wokha,Nagaland,Wokha,True
+zunheboto,Zunheboto,Nagaland,25.96667,94.51667,Zunheboto,Nagaland,Zunheboto,True
+kiphire,Kiphire,Nagaland,25.86785,94.78572,Kiphire,Nagaland,Kiphire District,True
+bijapur surendranagar,Bijapur Surendranagar,Karnataka,,,,,,False
+pashchimi west singhbhum,Pashchimi West Singhbhum,Bihar,,,,,,False
+purbi west singhbhum,Purbi West Singhbhum,Bihar,,,,,,False
+neighbourhood,neighbourhood,West Bengal,,,,,,False
+paschim medinipur,Paschim Medinipur,West Bengal,,,,,,False
+jaloree,Jaloree,Rajasthan,,,,,,False
+sri muktsar sahib,Sri Muktsar Sahib,Punjab,,,,,,False
+udam singh nagar,Udam Singh Nagar,Uttar Pradesh,,,,,,False
+champawat,Champawat,Uttar Pradesh,29.33501,80.07783,Champawat,Uttarakhand,Champawat,True
+bageshwar,Bageshwar,Uttar Pradesh,29.83738,79.77161,Bāgeshwar,Uttarakhand,Bageshwar,True
+ananthapuramu,Ananthapuramu,Andhra Pradesh,,,,,,False
+east uttar kashi pradesh,East Uttar Kashi Pradesh,Uttar Pradesh,,,,,,False
+many parts of the state,Many parts of the State,Punjab,,,,,,False
+uttar kashi,Uttar Kashi,West Bengal,,,,,,False
+rudra prayag,Rudra Prayag,Uttar Pradesh,,,,,,False
+east jaintia hills,East Jaintia Hills,Meghalaya,,,,,,False
+many parts,Many parts,Madhya Pradesh,,,,,,False
+uttar kashi bastar kanker,Uttar Kashi Bastar Kanker,Madhya Pradesh,,,,,,False
+jagdalpur,Jagdalpur,Madhya Pradesh,19.0743,82.0368,Jagdalpur Airport,Madhya Pradesh,,True
+dhamtari,Dhamtari,Madhya Pradesh,20.70718,81.54874,Dhamtari,Chhattisgarh,Dhamtari,True
+jashpur,Jashpur,Madhya Pradesh,22.88783,84.13864,Jashpur Nagar,Chhattisgarh,Jashpur,True
+northern parts,Northern parts,Gujarat,,,,,,False
+uttar kashia,Uttar Kashia,Karnataka,,,,,,False
+some parts,Some parts,Gujarat,,,,,,False
+most parts,Most parts,Uttar Pradesh,,,,,,False
+14 districts,14 districts,Odisha,,,,,,False
+11 districts,11 districts,Odisha,,,,,,False
+6 districts,6 districts,Arunachal Pradesh,,,,,,False
+southern parts,Southern parts,Kerala,,,,,,False
+bagalkotee belagavi,Bagalkotee Belagavi,Karnataka,,,,,,False
+chamarajanagaraa hassan,Chamarajanagaraa Hassan,Karnataka,,,,,,False
+ernakulam ant thiruvananthapuram,Ernakulam ant Thiruvananthapuram,Kerala,,,,,,False
+malikkeri,Malikkeri,Kerala,,,,,,False
+chhatisgarh,Chhatisgarh,Madhya Pradesh,,,,,,False
+dhanbad,Dhanbad,Jharkhand,23.79759,86.42992,Dhanbad,Jharkhand,Dhanbad District,True
+garhwa,Garhwa,Jharkhand,24.16002,83.80755,Garhwa,Jharkhand,Garhwa,True
+chatra,Chatra,Jharkhand,24.20645,84.87085,Chatrā,Jharkhand,Chatra,True
+giridih,Giridih,Jharkhand,24.18622,86.30875,Giridih,Jharkhand,Giridih,True
+latehar,Latehar,Jharkhand,23.74423,84.49984,Lātehār,Jharkhand,Latehar,True
+simdega,Simdega,Jharkhand,22.61523,84.50208,Simdega,Jharkhand,Simdega,True
+koderma,Koderma,Jharkhand,,,,,,False
+hazaribagh,Hazaribagh,Jharkhand,23.99241,85.36162,Hazaribagh,Jharkhand,Hazāribāgh District,True
+bokaro,Bokaro,Jharkhand,23.66934,86.15161,Bokaro,Jharkhand,Bokaro district,True
+saraikela kharsawan,Saraikela Kharsawan,Jharkhand,,,,,,False
+khunti,Khunti,Jharkhand,23.07602,85.27818,Khunti,Jharkhand,Khunti District,True
+lohardaga,Lohardaga,Jharkhand,23.43305,84.67992,Lohārdagā,Jharkhand,Lohardaga,True
+gumla,Gumla,Jharkhand,23.04268,84.54429,Gumlā,Jharkhand,Gumla,True
+west madhya pradesh,West Madhya Pradesh,Madhya Pradesh,,,,,,False
+jawad,Jawad,Madhya Pradesh,24.59916,74.86261,Jāwad,Madhya Pradesh,Neemuch District,True
+palampur,Palampur,Gujarat,32.11453,76.55681,Pālampur,Himachal Pradesh,Kāngra District,True
+adjoining areas,adjoining areas,Himachal Pradesh,,,,,,False
+many districts of south bengal,Many districts of South Bengal,West Bengal,,,,,,False
+bagalkote,Bagalkote,Karnataka,,,,,,False
+21 districts of assam,21 districts of Assam,Assam,,,,,,False
+ernakulam kannur,Ernakulam Kannur,Kerala,,,,,,False
+most of the districts,Most of the districts,Andhra Pradesh,,,,,,False
+many districts of uttar kashi pradesh,Many districts of Uttar Kashi Pradesh,Uttar Pradesh,,,,,,False
+lower subansiri,Lower Subansiri,Arunachal Pradesh,,,,,,False
+bhandara chandrapur,Bhandara Chandrapur,Maharashtra,,,,,,False
+chamarajanagaraa davangere,Chamarajanagaraa Davangere,Karnataka,,,,,,False
+chikodi,Chikodi,Karnataka,16.42898,74.58591,Chikodi,Karnataka,Belgaum district,True
+east west purba purba medinipur,East & West Purba Purba Medinipur,West Bengal,,,,,,False
+parts of sikkim,Parts of Sikkim,Sikkim,,,,,,False
+kochi,Kochi,Kerala,9.93988,76.26022,Kochi,Kerala,Ernakulam District,True
+mangalbari,Mangalbari,West Bengal,,,,,,False
+parts of orissa,Parts of Orissa,Odisha,,,,,,False
+some districts of punjab,Some districts of Punjab,Punjab,,,,,,False
+narayanpur,Narayanpur,Chhattisgarh,19.71794,81.24437,Nārāinpur,Chhattisgarh,Narayanpur,True
+kollam kozhikode,Kollam Kozhikode,Kerala,,,,,,False
+coastal districts of andhra pradesh,coastal districts of Andhra Pradesh,Andhra Pradesh,,,,,,False
+many districts of tamil nadu,Many districts of Tamil Nadu.,Tamil Nadu,,,,,,False
+parts of karnataka,Parts of Karnataka,Karnataka,,,,,,False
+kabeerdham,Kabeerdham,Chhattisgarh,,,,,,False
+heavy rains hazaribagh,Heavy rains Hazaribagh,Jharkhand,,,,,,False
+parts of uttar kashiakhand,Parts of Uttar Kashiakhand,Uttarakhand,,,,,,False
+bagalkoteebijapur,BagalkoteeBijapur,Karnataka,,,,,,False
+mahasamund,Mahasamund,Chhattisgarh,21.10743,82.0948,Mahāsamund,Chhattisgarh,Mahasamund,True
+korba,Korba,Chhattisgarh,22.3458,82.69633,Korba,Chhattisgarh,Korba,True
+janjgir champa,Janjgir-Champa,Chhattisgarh,,,,,,False
+19 districts of orissa,19 districts of Orissa,Odisha,,,,,,False
+parts of jammu,Parts of Jammu,Jammu and Kashmir,,,,,,False
+districts of cauvery delta zone,Districts of Cauvery delta zone,Tamil Nadu,,,,,,False
+districts of cauvery delta,Districts of Cauvery delta,Tamil Nadu,,,,,,False
+north and middle andaman,North And Middle Andaman,Andaman & Nicobar Islands,,,,,,False
+14 districts of assam,14 districts of Assam,Assam,,,,,,False
+neighborhood,neighborhood,Chhattisgarh,,,,,,False
+different parts of jammu,Different parts of Jammu,Jammu and Kashmir,,,,,,False
+pak,Pak,Arunachal Pradesh,23.86238,76.66032,Pāka,Madhya Pradesh,Rajgarh,True
+most upper lower subansiri,Most Upper Lower Subansiri,Arunachal Pradesh,,,,,,False
+east west godavari,East & West Godavari,Andhra Pradesh,,,,,,False
+ntr,Ntr,Andhra Pradesh,,,,,,False
+palnadu,Palnadu,Andhra Pradesh,,,,,,False
+many parts of tamil nadu,Many parts of Tamil Nadu.,Tamil Nadu,,,,,,False
+south andamans,South Andamans,Andaman & Nicobar Islands,,,,,,False
+parts of lahul spitti,Parts of Lahul & Spitti,Himachal Pradesh,,,,,,False
+chamarajanagaraa gadag,Chamarajanagaraa Gadag,Karnataka,,,,,,False
+parts of jharkhand,Parts of Jharkhand,Jharkhand,,,,,,False
+mungeli,Mungeli,Chhattisgarh,22.06566,81.68543,Mungeli,Chhattisgarh,Mungeli,True
+26 districts of rajasthan,26 districts of Rajasthan,Rajasthan,,,,,,False
+urban,Urban,Karnataka,13.85235,75.91578,Urbāni,Karnataka,Davangere,True
+rural,Rural,Karnataka,,,,,,False
+parts of meghalaya,Parts of Meghalaya,Meghalaya,,,,,,False
+darjeelingm,Darjeelingm,West Bengal,,,,,,False
+parts of rajasthan,Parts of Rajasthan,Rajasthan,,,,,,False
+nabarangpur,Nabarangpur,Odisha,19.23114,82.54826,Nowrangapur,Odisha,Nabarangapur District,True
+kanniyakumari,Kanniyakumari,Tamil Nadu,8.09008,77.53841,Kanniyākumāri,Tamil Nadu,Kanniyakumari,True
+devbhumi dwarka,Devbhumi Dwarka,Gujarat,,,,,,False
+udaiur,Udaiur,Gujarat,,,,,,False
+parts of maharashtra,Parts of Maharashtra,Maharashtra,,,,,,False
+gadchiroli yavotmal,Gadchiroli Yavotmal,Maharashtra,,,,,,False
+north westdusar,North westdusar,West Bengal,,,,,,False
+east west singhbhum,East West Singhbhum,Jharkhand,,,,,,False
+yadadri yadadri bhuvanagiri,Yadadri Yadadri Bhuvanagiri,Telangana,,,,,,False
+nagarkoil,Nagarkoil,Tamil Nadu,,,,,,False
+bagalkotee ballari,Bagalkotee Ballari,Karnataka,,,,,,False
+bemetara,Bemetara,Chhattisgarh,21.71556,81.53423,Bemetāra,Chhattisgarh,Bemetara,True
+dakshin bastar dantewada,Dakshin Bastar Dantewada,Chhattisgarh,,,,,,False
+bagalkotee bengaluru urban,Bagalkotee Bengaluru Urban,Karnataka,,,,,,False
+sshrawasti parts of east u p,SShrawasti & Parts of East U.P.,Uttar Pradesh,,,,,,False
+central part of uttar kashi pradesh,Central Part of Uttar Kashi Pradesh,Uttar Pradesh,,,,,,False
+shrawasti,Shrawasti,Uttar Pradesh,,,,,,False
+parts of telangana,Parts of Telangana,Telangana,,,,,,False
+parts of uttar pradesh,Parts of Uttar Pradesh,Uttar Pradesh,,,,,,False
+parts of himachal pradesh,Parts of Himachal Pradesh,Himachal Pradesh,,,,,,False
+chamarajanagaraa kalaburagi,Chamarajanagaraa  Kalaburagi,Karnataka,,,,,,False
+bagalkotee udupi,Bagalkotee Udupi,Karnataka,,,,,,False
+south salmara mancachar mankachar,South Salmara Mancachar - Mankachar,Assam,,,,,,False
+chamarajanagaraa chikkaballapura,Chamarajanagaraa Chikkaballapura,Karnataka,,,,,,False
+chamarajanagaraa chitradurga,Chamarajanagaraa Chitradurga,Karnataka,,,,,,False
+parts of west bengal,Parts of West Bengal,West Bengal,,,,,,False
+hyderabad parts of telangana,Hyderabad & Parts of Telangana,Telangana,,,,,,False
+parts of nagaland,Parts of Nagaland,Nagaland,,,,,,False
+balodabazar bhatapara,Balodabazar-Bhatapara,Chhattisgarh,,,,,,False
+kokrajhar darrang,Kokrajhar Darrang,Assam,,,,,,False
+bhadradri bhadradri kothagudem,Bhadradri Bhadradri Kothagudem,Telangana,,,,,,False
+parts of andhra pradesh,Parts of Andhra Pradesh,Andhra Pradesh,,,,,,False
+several other andhra pradesh,several other district (Andhra Pradesh),Andhra Pradesh,,,,,,False
+various parts of nagaland,& various parts of Nagaland,Nagaland,,,,,,False
+bhadradri kothagudem,Bhadradri Kothagudem,Telangana,,,,,,False
+yadadri bhuvanagiri,Yadadri Bhuvanagiri,Telangana,,,,,,False
+sukma,Sukma,Chhattisgarh,18.39014,81.65941,Sukma,Chhattisgarh,Sukma,True
+the dangs,The Dangs,Gujarat,,,,,,False
+balod,Balod,Chhattisgarh,20.73081,81.20578,Balod,Chhattisgarh,Balod,True
+chamarajanagara,Chamarajanagara,Karnataka,,,,,,False
+korea,Korea,Chhattisgarh,23.15,83.96667,Korea,Chhattisgarh,Jashpur,True

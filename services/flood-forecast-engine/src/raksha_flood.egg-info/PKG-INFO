@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: raksha-flood
+Version: 0.1.0
+Summary: RAKSHA Flood Early-Warning AI Engine — real-data 24h/48h flood probability service
+Requires-Python: >=3.11
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: xgboost
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: requests
+Requires-Dist: shap
+Requires-Dist: joblib
+Requires-Dist: python-dotenv
+Requires-Dist: pydantic
+Requires-Dist: pydantic-settings
+Requires-Dist: pyyaml
+Requires-Dist: scipy
+Requires-Dist: geopandas
+Requires-Dist: shapely
+Requires-Dist: pyproj

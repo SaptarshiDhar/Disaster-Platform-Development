@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+xgboost
+fastapi
+uvicorn[standard]
+requests
+shap
+joblib
+python-dotenv
+pydantic
+pydantic-settings
+pyyaml
+scipy
+geopandas
+shapely
+pyproj

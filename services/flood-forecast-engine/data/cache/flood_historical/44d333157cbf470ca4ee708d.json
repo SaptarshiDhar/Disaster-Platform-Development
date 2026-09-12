@@ -1,0 +1,1 @@
+{"latitude": 21.025002, "longitude": 79.025024, "generationtime_ms": 0.6568431854248047, "utc_offset_seconds": 0, "timezone": "GMT", "timezone_abbreviation": "GMT", "elevation": 278.0, "daily_units": {"time": "iso8601", "river_discharge": "m\u00b3/s"}, "daily": {"time": ["2020-01-01", "2020-01-02"], "river_discharge": [0.14, 0.23]}}

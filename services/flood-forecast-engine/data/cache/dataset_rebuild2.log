@@ -1,0 +1,46 @@
+﻿python.exe : 2026-09-12 02:21:17,836 INFO === Building dataset for horizon=24h ===
+At line:2 char:1
++ & ".venv\Scripts\python.exe" scripts\prepare_training_dataset.py 2>&1 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-09-12 02:2...horizon=24h ===:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-09-12 02:21:18,304 INFO Building 24h dataset: 5783 events across 508 geocoded districts
+2026-09-12 02:21:25,847 INFO district data fetched: 50/508 (empty weather: 0, rate-limited: 0)
+2026-09-12 02:21:32,701 INFO district data fetched: 100/508 (empty weather: 0, rate-limited: 0)
+2026-09-12 02:21:41,716 INFO district data fetched: 150/508 (empty weather: 0, rate-limited: 18)
+2026-09-12 02:21:54,137 INFO district data fetched: 200/508 (empty weather: 0, rate-limited: 63)
+2026-09-12 02:22:08,428 INFO district data fetched: 250/508 (empty weather: 0, rate-limited: 113)
+2026-09-12 02:22:21,251 INFO district data fetched: 300/508 (empty weather: 0, rate-limited: 163)
+2026-09-12 02:22:36,626 INFO district data fetched: 350/508 (empty weather: 0, rate-limited: 213)
+2026-09-12 02:22:49,582 INFO district data fetched: 400/508 (empty weather: 0, rate-limited: 263)
+2026-09-12 02:23:02,616 INFO district data fetched: 450/508 (empty weather: 0, rate-limited: 313)
+2026-09-12 02:23:15,466 INFO district data fetched: 500/508 (empty weather: 0, rate-limited: 362)
+2026-09-12 02:23:17,408 INFO district data fetched: 508/508 (empty weather: 0, rate-limited: 370)
+2026-09-12 02:23:17,408 WARNING 370/508 districts could not be fetched due to an Open-Meteo rate limit (cache was 
+reused where available; these were genuinely uncached and blocked).
+2026-09-12 02:23:17,408 WARNING Proceeding with the 138 districts that DID resolve. Events in the 370 rate-limited 
+districts are dropped from this run (not imputed, not guessed) — re-run once the quota resets for full coverage.
+2026-09-12 02:23:42,770 INFO Saved 6540 rows to C:\flood 
+model\services\flood-forecast-engine\data\processed\training_dataset_24h.csv (rainfall missing rate: 0.0%)
+2026-09-12 02:23:42,770 INFO horizon=24h: 6540 rows (1635 positive, 4905 negative), 138 districts
+2026-09-12 02:23:42,770 INFO === Building dataset for horizon=48h ===
+2026-09-12 02:23:43,448 INFO Building 48h dataset: 5783 events across 508 geocoded districts
+2026-09-12 02:23:51,206 INFO district data fetched: 50/508 (empty weather: 0, rate-limited: 0)
+2026-09-12 02:23:58,151 INFO district data fetched: 100/508 (empty weather: 0, rate-limited: 0)
+2026-09-12 02:24:07,113 INFO district data fetched: 150/508 (empty weather: 0, rate-limited: 18)
+2026-09-12 02:24:19,614 INFO district data fetched: 200/508 (empty weather: 0, rate-limited: 63)
+2026-09-12 02:24:33,198 INFO district data fetched: 250/508 (empty weather: 0, rate-limited: 113)
+2026-09-12 02:24:46,055 INFO district data fetched: 300/508 (empty weather: 0, rate-limited: 163)
+2026-09-12 02:24:59,053 INFO district data fetched: 350/508 (empty weather: 0, rate-limited: 213)
+2026-09-12 02:25:12,149 INFO district data fetched: 400/508 (empty weather: 0, rate-limited: 263)
+2026-09-12 02:25:25,253 INFO district data fetched: 450/508 (empty weather: 0, rate-limited: 313)
+2026-09-12 02:25:38,355 INFO district data fetched: 500/508 (empty weather: 0, rate-limited: 362)
+2026-09-12 02:25:40,285 INFO district data fetched: 508/508 (empty weather: 0, rate-limited: 370)
+2026-09-12 02:25:40,285 WARNING 370/508 districts could not be fetched due to an Open-Meteo rate limit (cache was 
+reused where available; these were genuinely uncached and blocked).
+2026-09-12 02:25:40,285 WARNING Proceeding with the 138 districts that DID resolve. Events in the 370 rate-limited 
+districts are dropped from this run (not imputed, not guessed) — re-run once the quota resets for full coverage.
+2026-09-12 02:26:04,021 INFO Saved 6540 rows to C:\flood 
+model\services\flood-forecast-engine\data\processed\training_dataset_48h.csv (rainfall missing rate: 0.0%)
+2026-09-12 02:26:04,027 INFO horizon=48h: 6540 rows (1635 positive, 4905 negative), 138 districts

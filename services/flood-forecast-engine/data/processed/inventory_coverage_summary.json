@@ -1,0 +1,11 @@
+{
+  "total_rows_raw": 6876,
+  "total_district_event_rows_after_cleaning": 24435,
+  "unique_uei_after_cleaning": 6679,
+  "unique_districts_normalized": 870,
+  "date_range": [
+    "1967-07-02",
+    "2023-09-10"
+  ],
+  "excluded_landslide_only_rows": 176
+}

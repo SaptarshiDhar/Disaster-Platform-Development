@@ -47,3 +47,5 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+web/.next/
+services/flood-forecast-engine/.venv/

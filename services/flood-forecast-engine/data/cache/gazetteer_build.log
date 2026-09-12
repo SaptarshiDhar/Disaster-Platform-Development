@@ -1,0 +1,32 @@
+﻿python.exe : 2026-09-11 20:09:36,336 INFO Full-history mode: 24435 district-event rows across the full inventory
+At line:2 char:1
++ & ".venv\Scripts\python.exe" scripts\prepare_historical_events.py --f ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-09-11 20:0... full inventory:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-09-11 20:09:36,384 INFO Geocoding 870 unique districts via Open-Meteo Geocoding API...
+2026-09-11 20:11:16,320 INFO gazetteer: geocoded 50/870 districts
+2026-09-11 20:12:27,624 INFO gazetteer: geocoded 100/870 districts
+2026-09-11 20:13:36,650 INFO gazetteer: geocoded 150/870 districts
+2026-09-11 20:14:51,820 INFO gazetteer: geocoded 200/870 districts
+2026-09-11 20:16:34,500 INFO gazetteer: geocoded 250/870 districts
+2026-09-11 20:18:15,043 INFO gazetteer: geocoded 300/870 districts
+2026-09-11 20:19:28,188 INFO gazetteer: geocoded 350/870 districts
+2026-09-11 20:20:51,278 INFO gazetteer: geocoded 400/870 districts
+2026-09-11 20:21:44,756 INFO gazetteer: geocoded 450/870 districts
+2026-09-11 20:23:06,925 INFO gazetteer: geocoded 500/870 districts
+2026-09-11 20:24:21,775 INFO gazetteer: geocoded 550/870 districts
+2026-09-11 20:25:23,311 INFO gazetteer: geocoded 600/870 districts
+2026-09-11 20:26:27,950 INFO gazetteer: geocoded 650/870 districts
+2026-09-11 20:27:39,345 INFO gazetteer: geocoded 700/870 districts
+2026-09-11 20:28:50,118 INFO gazetteer: geocoded 750/870 districts
+2026-09-11 20:30:00,681 INFO gazetteer: geocoded 800/870 districts
+2026-09-11 20:31:15,961 INFO gazetteer: geocoded 850/870 districts
+2026-09-11 20:31:45,688 INFO gazetteer: geocoded 870/870 districts
+2026-09-11 20:31:45,854 INFO Gazetteer built: 587/870 districts resolved (67.5%)
+2026-09-11 20:31:45,856 WARNING Unresolved districts (excluded from spatial features, NOT guessed): Khargone (Khargone 
+(West Nimar)), East Nimar, Agar-Malwa, Jalore, Kaimur (Bhabua), Purbi Champaran, Lakhisarai, Nalanda, Pashchim 
+Champaran, Boudh, Kandhamal, Anugul, Sant Kabir Nagar, Kanpur nagar Nagar, Kanpur nagar Dehat, Ambedkar Nagar, 
+Ghazipurr, Kaushambi, Gautam Buddha Nagar, Siddharthnagar, SShrawasti, Wayanad, Chamarajanagaraa, Bengaluru Urban, 
+Bengaluru Rural, Dakshina Kannada, Beedar, Bagalkotee, Chikkaballapura, Uttar Kashia Kannada
