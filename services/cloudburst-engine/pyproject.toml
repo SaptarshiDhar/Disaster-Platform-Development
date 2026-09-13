@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raksha-cloudburst"
+version = "0.1.0"
+description = "RAKSHA Cloudburst Alert Engine — rule-based, weather-API driven (not ML)"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "requests",
+    "pydantic",
+    "pyyaml",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "../landslide-engine/src", "../flood-forecast-engine/src"]

@@ -1,0 +1,93 @@
+# RAKSHA Cloudburst Alert Engine — operational thresholds.
+#
+# THESE ARE NOT OFFICIAL METEOROLOGICAL DEFINITIONS.
+#
+# The India Meteorological Department defines a cloudburst as roughly 100 mm of
+# rainfall in one hour over a small area. That is a post-hoc classification of
+# an observed event, not an alerting threshold: waiting for 100 mm/h to appear
+# in a forecast would mean almost never alerting at all, because numerical
+# weather models smooth convective extremes over their grid cells.
+#
+# So these are RAKSHA OPERATIONAL ALERT thresholds — deliberately lower than the
+# IMD event definition, tuned to flag conditions that could develop into an
+# intense short-duration downpour. They are configurable and NOT calibrated
+# against IMD or regional observations. Recalibrate before operational use.
+
+version: "cloudburst-thresholds-v1"
+status: "operational_prototype — NOT calibrated against IMD or regional observations"
+
+# ---------------------------------------------------------------------------
+# Peak hourly rainfall intensity (mm/h) expected within the horizon.
+# This is the primary cloudburst signal: a burst is defined by intensity, not
+# by total volume spread over a day.
+# ---------------------------------------------------------------------------
+peak_hourly_mm:
+  moderate: 10
+  high: 25
+  very_high: 45
+
+# ---------------------------------------------------------------------------
+# Accumulated rainfall within each horizon (mm).
+#
+# Per-horizon rather than a single number, because 60 mm in 3 hours is a very
+# different event from 60 mm spread across 24 hours. The windows widen faster
+# than the thresholds rise, which is what encodes "short and sharp is worse".
+# ---------------------------------------------------------------------------
+accumulation_mm:
+  now:   # the immediate 1-hour window
+    moderate: 8
+    high: 20
+    very_high: 40
+  "3h":
+    moderate: 25
+    high: 55
+    very_high: 95
+  "6h":
+    moderate: 40
+    high: 85
+    very_high: 145
+  "12h":
+    moderate: 60
+    high: 120
+    very_high: 195
+  "24h":
+    moderate: 85
+    high: 165
+    very_high: 250
+
+# ---------------------------------------------------------------------------
+# Modifiers. Each may move the level by at most one step, and the total is
+# clamped, so no combination can leap from LOW to VERY_HIGH on modifiers alone.
+# ---------------------------------------------------------------------------
+modifiers:
+  # A heavy forecast the model considers unlikely is downgraded once.
+  low_probability:
+    enabled: true
+    below_percent: 30
+    steps: -1
+  # Convective/thunderstorm signal: the mechanism that actually produces
+  # cloudbursts, so its presence raises the level.
+  thunderstorm:
+    enabled: true
+    steps: 1
+  # Ground already soaked by recent rain. Does not make the burst heavier, but
+  # makes the same burst more consequential, so alerting rises.
+  wet_antecedent:
+    enabled: true
+    recent_24h_mm_above: 60
+    steps: 1
+
+levels:
+  - LOW
+  - MODERATE
+  - HIGH
+  - VERY_HIGH
+
+colors:
+  LOW: "#22c55e"
+  MODERATE: "#eab308"
+  HIGH: "#f97316"
+  VERY_HIGH: "#ef4444"
+
+# How long an alert derived from a forecast stays meaningful before refresh.
+validity_minutes: 30
